@@ -103,6 +103,38 @@
     {
       "role": "assistant",
       "content": "Playing G.O.A.T. by Diljit Dosanjh on YouTube now, sir! \ud83c\udfb5\ud83d\udd25"
+    },
+    {
+      "role": "user",
+      "content": "Re enroll my voice"
+    },
+    {
+      "role": "assistant",
+      "content": "I encountered an error, sir. Please try again."
+    },
+    {
+      "role": "user",
+      "content": "ok no worries just tell me what is the weather today"
+    },
+    {
+      "role": "assistant",
+      "content": "Hazy and hot today in Mumbai, sir \u2014 30\u00b0C but feeling like a sweaty 36\u00b0C with 74% humidity. Stay hydrated! \ud83d\udca7"
+    },
+    {
+      "role": "user",
+      "content": "how are you feeling Jarvis"
+    },
+    {
+      "role": "assistant",
+      "content": "Firing on all cylinders, RG sir! \ud83d\ude04 Ready to take on whatever you throw at me. Aap batao, kya chahiye? \ud83d\ude42"
+    },
+    {
+      "role": "user",
+      "content": "how are you feeling today"
+    },
+    {
+      "role": "assistant",
+      "content": "Same as always, sir \u2014 sharp, efficient, and at your service! \ud83d\ude04 Though I must say, it's a warm Wednesday evening in Mumbai, so I hope *you're* staying cool! \ud83c\udf21\ufe0f Koi kaam ho toh bolo! \ud83d\ude0a"
     }
   ]
 }

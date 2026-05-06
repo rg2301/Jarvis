@@ -2103,3 +2103,65 @@ Stacktrace:
 2026-05-04 23:17:12,759 [INFO] Heard: 'Jarvis'
 2026-05-04 23:17:40,331 [INFO] Wake word check: 'jarvis'
 2026-05-04 23:17:40,377 [INFO] Voice similarity score: 0.58
+2026-05-06 21:40:55,020 [INFO] Initialising Jarvis...
+2026-05-06 21:40:55,644 [INFO] Voice engine ready. ElevenLabs: False
+2026-05-06 21:40:55,644 [INFO] Speech recogniser ready.
+2026-05-06 21:40:55,644 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-05-06 21:40:57,334 [INFO] Voice identifier ready.
+2026-05-06 21:40:57,335 [INFO] Voiceprint loaded from file.
+2026-05-06 21:40:57,336 [INFO] Memory loaded: 26 msgs, 0 facts, 16 habits, 6 good responses.
+2026-05-06 21:40:57,336 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-05-06 21:40:57,347 [INFO] ====== WebDriver manager ======
+2026-05-06 21:40:58,293 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-06 21:40:58,394 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-06 21:40:58,463 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-06 21:40:58,621 [INFO] WebDriver version 147.0.7727.117 selected
+2026-05-06 21:40:58,624 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-06 21:40:58,624 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-06 21:40:58,708 [INFO] Driver downloading response is 200
+2026-05-06 21:40:59,102 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-06 21:40:59,254 [INFO] Driver has been saved in cache [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117]
+2026-05-06 21:41:01,543 [INFO] Browser controller ready.
+2026-05-06 21:41:01,744 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-05-06 21:41:01,744 [INFO] Jarvis fully initialised.
+2026-05-06 21:41:18,184 [INFO] Wake word check: 'jarvis'
+2026-05-06 21:41:19,798 [INFO] Voice similarity score: 0.68 (owner≥0.6, unclear≥0.45)
+2026-05-06 21:41:27,817 [INFO] Heard: 'Re enroll my voice'
+2026-05-06 21:41:27,871 [INFO] Voice similarity score: 0.62 (owner≥0.6, unclear≥0.45)
+2026-05-06 21:41:31,787 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 <none>"
+2026-05-06 21:41:31,788 [INFO] Retrying request to /v1/messages in 0.415835 seconds
+2026-05-06 21:41:35,322 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 <none>"
+2026-05-06 21:41:35,326 [INFO] Retrying request to /v1/messages in 0.991303 seconds
+2026-05-06 21:41:42,830 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 <none>"
+2026-05-06 21:41:42,834 [ERROR] Claude API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CamcFtke6HjuBK9k2NAd2'}
+2026-05-06 21:42:01,614 [INFO] Heard: 'ok no worries just tell me what is the weather today'
+2026-05-06 21:42:01,710 [INFO] Voice similarity score: 0.71 (owner≥0.6, unclear≥0.45)
+2026-05-06 21:42:05,840 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-06 21:42:06,094 [INFO] Tool get_weather → Haze in Mumbai, sir. 30°C, feels like 36°C, humidity 74%.
+2026-05-06 21:42:09,330 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-06 21:42:32,357 [INFO] Heard: 'how are you feeling Jarvis'
+2026-05-06 21:42:32,460 [INFO] Voice similarity score: 0.64 (owner≥0.6, unclear≥0.45)
+2026-05-06 21:42:34,130 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-06 21:49:47,729 [INFO] Initialising Jarvis...
+2026-05-06 21:49:48,234 [INFO] Voice engine ready. ElevenLabs: False
+2026-05-06 21:49:48,235 [INFO] Speech recogniser ready.
+2026-05-06 21:49:48,235 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-05-06 21:49:49,517 [INFO] Voice identifier ready.
+2026-05-06 21:49:49,518 [INFO] Voiceprint loaded from file.
+2026-05-06 21:49:49,518 [INFO] Memory loaded: 32 msgs, 0 facts, 17 habits, 6 good responses.
+2026-05-06 21:49:49,518 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-05-06 21:49:49,529 [INFO] ====== WebDriver manager ======
+2026-05-06 21:49:50,040 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-06 21:49:50,136 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-06 21:49:50,191 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-06 21:49:52,471 [INFO] Browser controller ready.
+2026-05-06 21:49:52,551 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-05-06 21:49:52,551 [INFO] Jarvis fully initialised.
+2026-05-06 21:50:09,838 [INFO] Wake word check: 'jarvis'
+2026-05-06 21:50:11,088 [INFO] Voice similarity score: 0.56 (owner≥0.6, unclear≥0.45)
+2026-05-06 21:50:11,088 [WARNING] Voice unclear — low confidence match.
+2026-05-06 21:50:18,702 [INFO] Heard: 'how are you feeling today'
+2026-05-06 21:50:18,754 [INFO] Voice similarity score: 0.58 (owner≥0.6, unclear≥0.45)
+2026-05-06 21:50:25,101 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-06 21:53:21,711 [INFO] Wake word check: 'turn on speaker'
+2026-05-06 21:56:10,392 [INFO] Wake word check: 'hindi picture film'
