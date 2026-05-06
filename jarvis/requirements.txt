@@ -1,0 +1,40 @@
+# ═══════════════════════════════════════════
+#  Jarvis — requirements.txt
+#  Install with:  pip install -r requirements.txt
+# ═══════════════════════════════════════════
+
+# Core AI
+anthropic>=0.40.0
+
+# Speech recognition
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14
+
+# Text-to-speech (local)
+pyttsx3>=2.90
+
+# Wake word detection (optional — needs Porcupine key from picovoice.ai)
+pvporcupine>=3.0.0
+
+# System monitoring
+psutil>=5.9.0
+
+# HTTP requests (weather, ElevenLabs)
+requests>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: screenshot support
+pyautogui>=0.9.54
+Pillow>=10.0.0
+
+# Optional: Windows volume control
+# pycaw>=20240210   # Uncomment if on Windows
+# comtypes>=1.2.0   # Uncomment if on Windows
+
+# Optional: Better audio playback for ElevenLabs
+# Install mpg123 or ffmpeg separately for Linux/Mac:
+#   Ubuntu/Debian:  sudo apt install mpg123
+#   Mac:            brew install mpg123
+#   Windows:        comes bundled usually

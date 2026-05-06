@@ -1,0 +1,2105 @@
+2026-04-18 17:11:23,673 [INFO] Initialising Jarvis...
+2026-04-18 17:11:26,507 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-18 17:11:26,507 [INFO] Speech recogniser ready.
+2026-04-18 17:11:26,507 [INFO] Wake word disabled (no Porcupine key). Press ENTER to activate.
+2026-04-18 17:11:26,533 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 17:11:26,533 [INFO] Jarvis fully initialised.
+2026-04-18 17:11:55,951 [INFO] Heard: 'hi Jarvis how are you doing'
+2026-04-18 17:11:56,565 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-18 17:11:56,568 [ERROR] Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CaBB8hUzRV1p1tTAB6jaW'}
+2026-04-18 17:41:12,787 [INFO] Heard: 'hey Jarvis how are you doing'
+2026-04-18 17:41:13,206 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-18 17:41:13,212 [ERROR] Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CaBDNCGwySUnj1j7nPHqs'}
+2026-04-18 17:41:49,741 [INFO] Heard: 'Jarvis stop it'
+2026-04-18 17:41:50,161 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-18 17:41:50,165 [ERROR] Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CaBDQv9B7y3Cvps35p36W'}
+2026-04-18 17:46:27,561 [INFO] Initialising Jarvis...
+2026-04-18 17:46:33,062 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-18 17:46:33,062 [INFO] Speech recogniser ready.
+2026-04-18 17:46:33,062 [INFO] Wake word disabled (no Porcupine key). Press ENTER to activate.
+2026-04-18 17:46:33,091 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 17:46:33,091 [INFO] Loaded 6 messages from memory.
+2026-04-18 17:46:33,091 [INFO] Jarvis fully initialised.
+2026-04-18 17:46:45,458 [INFO] Heard: 'hey Jarvis how are you doing'
+2026-04-18 17:46:46,743 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-04-18 17:46:46,744 [ERROR] Claude API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CaBDnixb9bdEXqLQEchqD'}
+2026-04-18 17:53:44,128 [INFO] Initialising Jarvis...
+2026-04-18 17:53:44,668 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-18 17:53:44,668 [INFO] Speech recogniser ready.
+2026-04-18 17:53:44,668 [INFO] Wake word disabled (no Porcupine key). Press ENTER to activate.
+2026-04-18 17:53:44,698 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 17:53:44,698 [INFO] Loaded 8 messages from memory.
+2026-04-18 17:53:44,698 [INFO] Jarvis fully initialised.
+2026-04-18 17:53:57,691 [INFO] Heard: 'hey Jarvis how are you doing'
+2026-04-18 17:53:59,538 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:35:05,785 [INFO] Initialising Jarvis...
+2026-04-18 18:35:06,422 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 18:35:06,422 [INFO] Speech recogniser ready.
+2026-04-18 18:35:24,606 [WARNING] OpenWakeWord failed: Could not find pretrained model for model name 'Jarvis'. Using ENTER key instead.
+2026-04-18 18:35:24,646 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 18:35:24,646 [INFO] Loaded 10 messages from memory.
+2026-04-18 18:35:24,646 [INFO] Jarvis fully initialised.
+2026-04-18 18:35:34,768 [ERROR] ElevenLabs error: HTTPSConnectionPool(host='api.elevenlabs.io', port=443): Read timed out. (read timeout=10). Falling back.
+2026-04-18 18:35:51,190 [INFO] Heard: 'hey Jarvis how are you doing'
+2026-04-18 18:35:51,647 [WARNING] ElevenLabs failed (401), falling back to pyttsx3.
+2026-04-18 18:35:54,512 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:35:55,021 [WARNING] ElevenLabs failed (401), falling back to pyttsx3.
+2026-04-18 18:41:34,375 [INFO] Initialising Jarvis...
+2026-04-18 18:41:34,964 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 18:41:34,965 [INFO] Speech recogniser ready.
+2026-04-18 18:41:35,582 [WARNING] OpenWakeWord failed: Could not find pretrained model for model name 'Jarvis'. Using ENTER key instead.
+2026-04-18 18:41:35,612 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 18:41:35,613 [INFO] Loaded 12 messages from memory.
+2026-04-18 18:41:35,613 [INFO] Jarvis fully initialised.
+2026-04-18 18:41:36,329 [WARNING] ElevenLabs failed (402), falling back to pyttsx3.
+2026-04-18 18:41:52,708 [INFO] Heard: 'how are you doing Jarvis'
+2026-04-18 18:41:53,218 [WARNING] ElevenLabs failed (402), falling back to pyttsx3.
+2026-04-18 18:41:56,201 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:42:00,072 [WARNING] ElevenLabs failed (402), falling back to pyttsx3.
+2026-04-18 18:49:43,640 [INFO] Initialising Jarvis...
+2026-04-18 18:49:44,249 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 18:49:44,249 [INFO] Speech recogniser ready.
+2026-04-18 18:49:44,866 [WARNING] OpenWakeWord failed: Could not find pretrained model for model name 'Jarvis'. Using ENTER key instead.
+2026-04-18 18:49:44,897 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 18:49:44,898 [INFO] Loaded 14 messages from memory.
+2026-04-18 18:49:44,898 [INFO] Jarvis fully initialised.
+2026-04-18 18:49:45,671 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:50:03,500 [INFO] Heard: 'how are you doing Jarvis'
+2026-04-18 18:50:04,041 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:50:08,754 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:50:09,246 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:50:27,118 [INFO] Heard: 'what is the weather today'
+2026-04-18 18:50:27,684 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:50:45,922 [INFO] Heard: 'could you please read it out Jarvis what is the weather today'
+2026-04-18 18:50:46,182 [ERROR] Weather error: 'main'
+2026-04-18 18:50:46,645 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:50:57,755 [INFO] Heard: 'what do you like to do in your free time Jarvis'
+2026-04-18 18:50:58,313 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:51:01,339 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:51:01,818 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:52:14,705 [INFO] Heard: 'Jarvis may I know your voice ID'
+2026-04-18 18:52:15,216 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:52:23,103 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:52:23,669 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:52:48,188 [INFO] Heard: 'yeah could you please assist me how to do that'
+2026-04-18 18:52:48,803 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:52:53,617 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:52:56,183 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:53:33,145 [INFO] Heard: 'I was trying to use 11 Labs'
+2026-04-18 18:53:33,653 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 18:53:38,674 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 18:53:43,672 [WARNING] ElevenLabs 402, falling back.
+2026-04-18 19:22:37,742 [INFO] Initialising Jarvis...
+2026-04-18 19:22:38,348 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 19:22:38,348 [INFO] Speech recogniser ready.
+2026-04-18 19:22:38,348 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 19:22:38,378 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 19:22:38,379 [INFO] Loaded 20 messages from memory.
+2026-04-18 19:22:38,379 [INFO] Jarvis fully initialised.
+2026-04-18 19:22:55,641 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:23:06,736 [INFO] Wake word heard: 'what's the weather'
+2026-04-18 19:23:26,771 [INFO] Wake word heard: 'what's the weather'
+2026-04-18 19:23:50,225 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:24:04,625 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:24:10,703 [INFO] Heard: 'what is the weather'
+2026-04-18 19:24:26,354 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:24:31,348 [INFO] Heard: 'how are you doing'
+2026-04-18 19:24:34,782 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:24:49,091 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:24:55,334 [INFO] Heard: 'what's the current news'
+2026-04-18 19:24:58,669 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:26:02,011 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:26:14,203 [INFO] Wake word heard: 'jarvis'
+2026-04-18 19:26:19,571 [INFO] Heard: 'I said goodbye'
+2026-04-18 19:26:23,719 [INFO] Jarvis shut down cleanly.
+2026-04-18 19:33:58,516 [INFO] Initialising Jarvis...
+2026-04-18 19:33:59,144 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 19:33:59,144 [INFO] Speech recogniser ready.
+2026-04-18 19:33:59,144 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 19:33:59,178 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 19:33:59,179 [INFO] Loaded 20 messages from memory.
+2026-04-18 19:33:59,179 [INFO] Jarvis fully initialised.
+2026-04-18 19:34:10,732 [INFO] Wake word check: 'jarvis'
+2026-04-18 19:34:17,606 [INFO] Heard: 'Mumbai'
+2026-04-18 19:34:21,347 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:34:42,799 [INFO] Heard: 'yeah open Hindustan'
+2026-04-18 19:34:45,882 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:35:10,445 [INFO] Heard: 'yeah I would love that'
+2026-04-18 19:35:15,547 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:35:50,485 [INFO] Heard: 'I prefer something on the development'
+2026-04-18 19:35:53,662 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:36:26,224 [INFO] Heard: 'yeah I have it installed'
+2026-04-18 19:36:29,061 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:36:47,624 [INFO] Heard: 'make it simple Jarvis'
+2026-04-18 19:36:54,787 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:37:34,512 [INFO] Heard: 'that's ok I am still doing it'
+2026-04-18 19:37:35,712 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:37:44,427 [INFO] Heard: 'show Jarvis'
+2026-04-18 19:37:49,784 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:39:23,989 [INFO] Heard: 'wait for me Jarvis'
+2026-04-18 19:39:25,764 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:40:26,290 [INFO] Wake word check: 'jarvis'
+2026-04-18 19:40:41,312 [INFO] Heard: 'so I have created a python script as you suggested'
+2026-04-18 19:40:43,759 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:41:12,387 [INFO] Heard: 'no just hold on so the python script that you gave me'
+2026-04-18 19:41:15,096 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:41:24,831 [INFO] Heard: 'I was saying like'
+2026-04-18 19:41:27,133 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:41:38,527 [INFO] Heard: 'saying that I need to save the python code in the same file you mention'
+2026-04-18 19:41:40,907 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:43:18,996 [INFO] Wake word check: 'jarvis'
+2026-04-18 19:43:37,399 [INFO] Heard: 'I was saying I like the way you responded'
+2026-04-18 19:43:39,377 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:43:52,687 [INFO] Heard: 'no let's leave it as of now will do it soon'
+2026-04-18 19:43:54,326 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:44:05,974 [INFO] Heard: 'goodbye jarv'
+2026-04-18 19:44:17,146 [INFO] Wake word check: 'jarvis'
+2026-04-18 19:44:30,616 [INFO] Heard: 'goodbye'
+2026-04-18 19:44:39,445 [INFO] Wake word check: 'jarvis'
+2026-04-18 19:45:01,848 [INFO] Wake word check: 'jarvis'
+2026-04-18 19:45:07,621 [INFO] Heard: 'I am saying goodbye'
+2026-04-18 19:45:30,184 [INFO] Wake word check: 'why i developed something'
+2026-04-18 19:45:41,139 [INFO] Wake word check: 'i developed jarvis'
+2026-04-18 19:45:46,349 [INFO] Heard: 'what's the weather in Mumbai'
+2026-04-18 19:45:46,620 [ERROR] Weather error: 'main'
+2026-04-18 19:45:54,048 [INFO] Heard: 'what about Delhi'
+2026-04-18 19:45:57,429 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:46:21,193 [INFO] Heard: 'what's the record generate'
+2026-04-18 19:46:23,652 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:46:39,627 [INFO] Heard: 'stop Jarvis'
+2026-04-18 19:46:42,906 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 19:46:53,148 [INFO] Heard: 'goodbye'
+2026-04-18 19:47:02,982 [INFO] Wake word check: 'abhi completely prepare nahin hue'
+2026-04-18 19:47:09,322 [INFO] Wake word check: 'matlab majority of things ho gai'
+2026-04-18 19:47:13,929 [INFO] Wake word check: 'main bhi free subscription use kar raha hun voice wala'
+2026-04-18 19:47:21,302 [INFO] Wake word check: 'different voices use bahut pasand i'
+2026-04-18 19:47:31,667 [INFO] Wake word check: 'kabhi bhi change kar sakte'
+2026-04-18 19:47:35,871 [INFO] Wake word check: 'bakchodi ke liye'
+2026-04-18 19:47:40,453 [INFO] Wake word check: 'multiple features add ho sakte hain'
+2026-04-18 19:47:45,571 [INFO] Wake word check: 'lekin'
+2026-04-18 19:47:51,100 [INFO] Wake word check: 'to matlab is kind of a'
+2026-04-18 19:47:59,701 [INFO] Wake word check: 'what is my add kar sakta hun'
+2026-04-18 19:48:04,684 [INFO] Wake word check: 'he still listening'
+2026-04-18 19:48:08,611 [INFO] Wake word check: 'bhai hindi mein type kar rahe ho'
+2026-04-18 19:48:13,528 [INFO] Wake word check: 'completely prepare nahin kiya'
+2026-04-18 19:48:18,754 [INFO] Wake word check: 'hindi mein type'
+2026-04-18 19:48:27,146 [INFO] Wake word check: 'abhi ruk jao bhai abhi to mast'
+2026-04-18 19:48:38,103 [INFO] Wake word check: 'abhi ruk jao bhai abhi to mast hai'
+2026-04-18 20:06:57,430 [INFO] Initialising Jarvis...
+2026-04-18 20:06:58,050 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 20:06:58,050 [INFO] Speech recogniser ready.
+2026-04-18 20:06:58,050 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 20:06:58,083 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 20:06:58,083 [INFO] Loaded 20 messages from memory.
+2026-04-18 20:06:58,083 [INFO] Jarvis fully initialised.
+2026-04-18 20:07:14,739 [INFO] Wake word check: 'jarvis'
+2026-04-18 20:07:20,232 [INFO] Heard: 'how are you doing'
+2026-04-18 20:07:22,315 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:07:31,945 [INFO] Heard: 'all good'
+2026-04-18 20:07:33,859 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:07:40,966 [INFO] Heard: 'what is the weather in Delhi'
+2026-04-18 20:07:55,369 [INFO] Heard: 'tell me what do you like'
+2026-04-18 20:07:58,250 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:08:22,312 [INFO] Heard: 'do I like do I look like Mr Stark to you'
+2026-04-18 20:08:24,503 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:08:54,663 [INFO] Wake word check: 'jarvis'
+2026-04-18 20:08:58,880 [INFO] Heard: 'you know Kanika'
+2026-04-18 20:09:01,437 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:09:18,905 [INFO] Heard: 'Sukh Kanika is one of my'
+2026-04-18 20:09:20,675 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:09:31,454 [INFO] Heard: 'include her in friends'
+2026-04-18 20:09:33,733 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:09:44,376 [INFO] Heard: 'where is my friends list'
+2026-04-18 20:09:47,498 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:10:12,002 [INFO] Heard: 'could you please open YouTube for me'
+2026-04-18 20:10:24,177 [INFO] Heard: 'play a song'
+2026-04-18 20:10:26,423 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:10:35,574 [INFO] Heard: 'play something from Ed'
+2026-04-18 20:10:39,039 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:11:03,324 [INFO] Wake word check: 'jarvis'
+2026-04-18 20:11:08,737 [INFO] Heard: 'play a song in YouTube'
+2026-04-18 20:11:11,354 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:11:33,106 [INFO] Heard: 'you already opened YouTube but I want to play one song could you please play it on my behalf'
+2026-04-18 20:11:36,055 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:12:02,288 [INFO] Heard: 'goodbye jar'
+2026-04-18 20:53:27,729 [INFO] Initialising Jarvis...
+2026-04-18 20:53:28,317 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 20:53:28,318 [INFO] Speech recogniser ready.
+2026-04-18 20:53:28,318 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 20:53:28,347 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 20:53:28,348 [INFO] Loaded 20 messages from memory.
+2026-04-18 20:53:28,348 [INFO] Jarvis fully initialised.
+2026-04-18 20:53:50,446 [INFO] Wake word check: 'yah mujhe bhi kami a rahi hai iski vajah se screenshot'
+2026-04-18 20:53:58,743 [INFO] Wake word check: 'jarvis'
+2026-04-18 20:54:03,417 [INFO] Heard: 'do you know my name'
+2026-04-18 20:54:05,726 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:54:17,279 [INFO] Heard: 'so I am Rishabh Gupta'
+2026-04-18 20:54:18,774 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:54:33,656 [INFO] Heard: 'you know you can call me'
+2026-04-18 20:54:35,623 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:54:49,179 [INFO] Heard: 'you can call me RG'
+2026-04-18 20:54:51,505 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:55:07,707 [INFO] Heard: 'what can you do for me'
+2026-04-18 20:55:10,496 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:57:19,183 [INFO] Wake word check: 'jarvis'
+2026-04-18 20:57:25,829 [INFO] Heard: 'do you know my name'
+2026-04-18 20:57:27,955 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:57:42,001 [INFO] Heard: 'I like to you'
+2026-04-18 20:57:43,349 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:57:54,714 [INFO] Heard: 'I like I like interacting with you'
+2026-04-18 20:57:57,928 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:58:11,944 [INFO] Heard: 'can you check my calendar'
+2026-04-18 20:58:14,890 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:58:34,311 [INFO] Heard: 'check for Google calendar'
+2026-04-18 20:58:37,096 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:59:30,868 [INFO] Heard: 'I said yes'
+2026-04-18 20:59:32,110 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 20:59:53,221 [INFO] Heard: 'so Jarvis'
+2026-04-18 20:59:54,938 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 21:00:11,136 [INFO] Heard: 'you can call me sir RG comma Boss'
+2026-04-18 21:00:13,674 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 21:00:36,712 [INFO] Heard: 'you can call me RG'
+2026-04-18 21:00:38,756 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 21:00:49,718 [INFO] Heard: 'you can call me three things'
+2026-04-18 21:00:51,462 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 21:01:06,828 [INFO] Heard: 'not sir arji only sir'
+2026-04-18 21:01:08,971 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 21:01:22,180 [INFO] Heard: 'perfect go to sleep now'
+2026-04-18 22:14:46,869 [INFO] Initialising Jarvis...
+2026-04-18 22:14:47,451 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 22:14:47,452 [INFO] Speech recogniser ready.
+2026-04-18 22:14:47,452 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 22:14:47,486 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 22:14:47,487 [INFO] Loaded 20 messages from memory.
+2026-04-18 22:14:47,487 [INFO] Jarvis fully initialised.
+2026-04-18 22:14:58,569 [INFO] Wake word check: 'jarvis'
+2026-04-18 22:15:04,626 [INFO] Heard: 'are my computer is not working'
+2026-04-18 22:15:07,367 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:15:23,474 [INFO] Heard: 'not booting up'
+2026-04-18 22:15:26,345 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:15:50,924 [INFO] Heard: 'just a black'
+2026-04-18 22:15:54,018 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:16:24,474 [INFO] Heard: 'I tried whatever you suggested but still nothing is happening'
+2026-04-18 22:16:27,856 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:16:54,888 [INFO] Heard: 'that I would like to know what is'
+2026-04-18 22:16:58,740 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:17:35,522 [INFO] Heard: 'no I think it's ok as of now'
+2026-04-18 22:17:37,352 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:17:50,778 [INFO] Heard: 'Jarvis'
+2026-04-18 22:17:51,853 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:18:04,403 [INFO] Heard: 'what is the temperature in Mumbai'
+2026-04-18 22:18:06,957 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:18:23,070 [INFO] Heard: 'yes please'
+2026-04-18 22:18:25,493 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:18:44,845 [INFO] Heard: 'no thank you Jarvis'
+2026-04-18 22:18:48,840 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:18:56,777 [INFO] Heard: 'abhi yah bahut powerful'
+2026-04-18 22:18:59,797 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:19:18,005 [INFO] Heard: 'Jarvis'
+2026-04-18 22:19:19,459 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:19:27,020 [INFO] Heard: 'where would I get Russian escorts in Mumbai at this'
+2026-04-18 22:19:28,347 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:19:40,655 [INFO] Heard: 'Nobody's thanks for your'
+2026-04-18 22:19:42,077 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:19:52,417 [INFO] Heard: 'thank you Jarvis goodbye'
+2026-04-18 22:27:54,671 [INFO] Initialising Jarvis...
+2026-04-18 22:27:55,306 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 22:27:55,306 [INFO] Speech recogniser ready.
+2026-04-18 22:27:55,306 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 22:27:55,334 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 22:27:55,335 [INFO] Loaded 20 messages from memory.
+2026-04-18 22:27:55,335 [INFO] Jarvis fully initialised.
+2026-04-18 22:28:06,094 [INFO] Wake word check: 'jarvis'
+2026-04-18 22:28:11,442 [INFO] Heard: 'bhosdi ke'
+2026-04-18 22:28:12,973 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:28:25,165 [INFO] Heard: 'sorry Jarvis that was not for you'
+2026-04-18 22:28:26,969 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:28:37,170 [INFO] Heard: 'RG Kaun Hai bahan chod'
+2026-04-18 22:28:40,728 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:29:13,516 [INFO] Heard: 'no no go to sleep Jarvis'
+2026-04-18 22:29:22,806 [INFO] Wake word check: 'ganesh aarti'
+2026-04-18 22:29:26,257 [INFO] Wake word check: 'org kah diya tha jo mujhe nahin'
+2026-04-18 22:29:30,537 [INFO] Wake word check: 'chahta hun aur language ke bare mein no comment'
+2026-04-18 22:29:39,067 [INFO] Wake word check: 'listening disable ki hui hai abhi enable'
+2026-04-18 22:29:47,659 [INFO] Wake word check: 'jarvis'
+2026-04-18 22:29:52,356 [INFO] Heard: 'Kisi Ko batana'
+2026-04-18 22:29:54,430 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:30:04,175 [INFO] Heard: 'smart boy'
+2026-04-18 22:30:05,665 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:30:14,364 [INFO] Heard: 'how are you feeling Jarvis'
+2026-04-18 22:30:17,064 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:30:29,023 [INFO] Heard: 'I am feeling great talking to you'
+2026-04-18 22:30:31,321 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 22:30:44,768 [INFO] Heard: 'good go to sleep'
+2026-04-18 23:13:53,991 [INFO] Initialising Jarvis...
+2026-04-18 23:13:54,568 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-18 23:13:54,568 [INFO] Speech recogniser ready.
+2026-04-18 23:13:54,568 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-18 23:13:54,596 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-18 23:13:54,596 [INFO] Loaded 20 messages from memory.
+2026-04-18 23:13:54,596 [INFO] Jarvis fully initialised.
+2026-04-18 23:14:05,659 [INFO] Wake word check: 'jarvis'
+2026-04-18 23:14:20,914 [INFO] Heard: 'I am asking do you know is there any IPL match today'
+2026-04-18 23:14:23,953 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:14:45,081 [INFO] Heard: 'can you do that for me'
+2026-04-18 23:14:48,153 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:15:09,985 [INFO] Heard: 'do you know how can I give you that power to open the browser by yourself'
+2026-04-18 23:15:14,471 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:15:43,756 [INFO] Heard: 'yeah guide me through that'
+2026-04-18 23:15:52,050 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:17:21,344 [INFO] Heard: 'Jarvis I would like to give you a'
+2026-04-18 23:17:23,394 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:17:37,868 [INFO] Heard: 'I said I would like to give you a compliment'
+2026-04-18 23:17:42,440 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:17:53,630 [INFO] Heard: 'Bade Harami Ho beta'
+2026-04-18 23:17:56,672 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:18:13,931 [INFO] Heard: 'thank you so much Jarvis you can go to sleep'
+2026-04-18 23:18:21,584 [INFO] Wake word check: 'jarvis'
+2026-04-18 23:18:34,819 [INFO] Heard: 'Main Kya Karun'
+2026-04-18 23:18:37,563 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:19:02,893 [INFO] Heard: 'thank you you can go to'
+2026-04-18 23:19:04,378 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:19:15,116 [INFO] Heard: 'Jarvis'
+2026-04-18 23:19:17,231 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-18 23:19:25,029 [INFO] Heard: 'you can go and sleep'
+2026-04-18 23:19:53,906 [INFO] Wake word check: 'jarvis'
+2026-04-18 23:20:00,135 [INFO] Heard: 'nothing you can sleep'
+2026-04-19 10:19:14,233 [INFO] Initialising Jarvis...
+2026-04-19 10:19:14,816 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-19 10:19:14,817 [INFO] Speech recogniser ready.
+2026-04-19 10:19:14,817 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 10:19:14,847 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 10:19:14,848 [INFO] Loaded 20 messages from memory.
+2026-04-19 10:19:14,848 [INFO] Jarvis fully initialised.
+2026-04-19 10:20:01,630 [INFO] Wake word check: 'jarvis'
+2026-04-19 10:20:07,953 [INFO] Heard: 'what is the weather today'
+2026-04-19 10:20:07,954 [INFO] Habit tracked: 'weather' at hour 10 (count: 1)
+2026-04-19 10:20:23,902 [INFO] Heard: 'could you please tell me the source of your information'
+2026-04-19 10:20:26,983 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:20:54,556 [INFO] Heard: 'that is fine'
+2026-04-19 10:20:56,169 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:21:12,584 [INFO] Heard: 'do you know my name'
+2026-04-19 10:21:14,088 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:21:26,753 [INFO] Heard: 'yes so my name is Rishabh Gupta'
+2026-04-19 10:21:28,835 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:21:41,511 [INFO] Heard: 'so remember these three things'
+2026-04-19 10:21:43,067 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:21:56,789 [INFO] Heard: 'yes so first'
+2026-04-19 10:21:56,790 [INFO] Good response saved. Total saved: 1
+2026-04-19 10:22:05,348 [INFO] Heard: 'you can call me sir'
+2026-04-19 10:22:06,524 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:22:17,847 [INFO] Heard: 'first thing is you can call me sir'
+2026-04-19 10:22:19,728 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:22:28,738 [INFO] Heard: 'you can occasionally call me boss'
+2026-04-19 10:22:29,787 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:22:36,827 [INFO] Heard: 'you can call me RG'
+2026-04-19 10:22:38,467 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:22:51,164 [INFO] Heard: 'perfect nothing as of now you can go and sleep'
+2026-04-19 10:27:33,454 [INFO] Wake word check: 'rahul'
+2026-04-19 10:42:08,403 [INFO] Initialising Jarvis...
+2026-04-19 10:42:08,972 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-19 10:42:08,972 [INFO] Speech recogniser ready.
+2026-04-19 10:42:08,972 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 10:42:09,002 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 10:42:09,002 [INFO] Loaded 20 messages from memory.
+2026-04-19 10:42:09,002 [INFO] Web brain ready. Using DuckDuckGo — no API key needed.
+2026-04-19 10:42:09,002 [INFO] Jarvis fully initialised.
+2026-04-19 10:42:19,902 [INFO] Wake word check: 'jarvis'
+2026-04-19 10:42:25,713 [INFO] Heard: 'do you know my name'
+2026-04-19 10:42:29,804 [INFO] DDG search 'do you know my name' returned 0 results.
+2026-04-19 10:42:31,697 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:42:47,442 [INFO] Heard: 'do you know the score of last match'
+2026-04-19 10:42:50,892 [INFO] DDG search 'do you know the score of last match' returned 0 results.
+2026-04-19 10:42:53,274 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:43:15,533 [INFO] Heard: 'what was the last match in the IPL'
+2026-04-19 10:43:18,257 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:43:46,313 [INFO] Heard: 'what is the IPL score'
+2026-04-19 10:43:49,708 [INFO] DDG search 'what is the latest news today' returned 0 results.
+2026-04-19 10:43:51,632 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 10:48:44,127 [INFO] Web brain ready. Using DuckDuckGo — no API key needed.
+2026-04-19 10:48:45,068 [INFO] DDG search 'IPL 2025 latest news' returned 0 results.
+2026-04-19 10:48:46,019 [INFO] DDG search 'Bitcoin price today live INR' returned 0 results.
+2026-04-19 10:48:46,123 [WARNING] DDG instant answer error: Expecting value: line 1 column 1 (char 0)
+2026-04-19 10:50:10,718 [INFO] Web brain ready. Using DuckDuckGo — no API key needed.
+2026-04-19 10:50:10,906 [INFO] DDG search 'IPL 2025 latest news today' returned 0 results.
+2026-04-19 10:50:12,217 [INFO] DDG search 'Bitcoin price today live INR' returned 0 results.
+2026-04-19 10:50:12,346 [WARNING] DDG instant answer error: Expecting value: line 1 column 1 (char 0)
+2026-04-19 10:50:13,390 [INFO] DDG search 'Anthropic Claude AI latest news' returned 0 results.
+2026-04-19 10:50:49,199 [INFO] Web brain ready. Using DuckDuckGo — no API key needed.
+2026-04-19 10:50:50,156 [INFO] DDG search 'IPL 2025 latest news today' returned 0 results.
+2026-04-19 10:50:51,073 [INFO] DDG search 'Bitcoin price today live INR' returned 0 results.
+2026-04-19 10:50:51,180 [WARNING] DDG instant answer error: Expecting value: line 1 column 1 (char 0)
+2026-04-19 10:50:51,284 [INFO] DDG search 'Anthropic Claude AI latest news' returned 0 results.
+2026-04-19 10:51:38,161 [INFO] Web brain ready. Using DuckDuckGo — no API key needed.
+2026-04-19 10:51:39,204 [INFO] DDG search 'IPL 2025 latest news today' returned 0 results.
+2026-04-19 10:51:40,123 [INFO] DDG search 'Bitcoin price today live INR' returned 0 results.
+2026-04-19 10:51:40,239 [WARNING] DDG instant answer error: Expecting value: line 1 column 1 (char 0)
+2026-04-19 10:51:40,348 [INFO] DDG search 'Anthropic Claude AI latest news' returned 0 results.
+2026-04-19 10:52:15,532 [INFO] Web brain ready. Using DuckDuckGo — no API key needed.
+2026-04-19 10:52:16,270 [INFO] DDG search 'IPL 2025 latest news today' returned 0 results.
+2026-04-19 10:52:17,194 [INFO] DDG search 'Bitcoin price today live INR' returned 0 results.
+2026-04-19 10:52:17,296 [WARNING] DDG instant answer error: Expecting value: line 1 column 1 (char 0)
+2026-04-19 10:52:17,391 [INFO] DDG search 'Anthropic Claude AI latest news' returned 0 results.
+2026-04-19 10:55:51,022 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 10:55:51,746 [INFO] Google News returned 5 results for 'IPL 2025'.
+2026-04-19 10:55:52,796 [INFO] Price found for Bitcoin: $0
+2026-04-19 10:55:53,699 [INFO] Google search 'Anthropic Claude AI latest news' returned 0 results.
+2026-04-19 11:00:29,053 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 11:00:30,059 [INFO] Google News returned 5 results for 'IPL 2025'.
+2026-04-19 11:00:31,131 [INFO] No price pattern found for Bitcoin, using news search.
+2026-04-19 11:00:31,852 [INFO] Google News returned 3 results for 'Bitcoin price today'.
+2026-04-19 11:00:33,023 [INFO] No price pattern found for Ethereum, using news search.
+2026-04-19 11:00:33,746 [INFO] Google News returned 3 results for 'Ethereum price today'.
+2026-04-19 11:00:35,882 [INFO] Falling back to Wikipedia for 'Anthropic Claude AI'.
+2026-04-19 11:00:36,549 [INFO] Wikipedia search returned 3 results.
+2026-04-19 11:02:08,089 [INFO] Initialising Jarvis...
+2026-04-19 11:02:08,604 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-19 11:02:08,604 [INFO] Speech recogniser ready.
+2026-04-19 11:02:08,604 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 11:02:08,634 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 11:02:08,635 [INFO] Loaded 20 messages from memory.
+2026-04-19 11:02:08,635 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 11:02:08,635 [INFO] Jarvis fully initialised.
+2026-04-19 11:02:20,187 [INFO] Wake word check: 'jarvis'
+2026-04-19 11:02:27,885 [INFO] Heard: 'what was the latest IPL match'
+2026-04-19 11:02:32,978 [INFO] Falling back to Wikipedia for 'what was the latest IPL match'.
+2026-04-19 11:02:33,711 [INFO] Wikipedia search returned 3 results.
+2026-04-19 11:02:35,984 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 11:02:53,781 [INFO] Heard: 'do you know the weather'
+2026-04-19 11:02:53,785 [INFO] Habit tracked: 'weather' at hour 11 (count: 1)
+2026-04-19 11:02:53,876 [ERROR] Weather error: 'main'
+2026-04-19 11:03:03,815 [INFO] Heard: 'what's the weather right now'
+2026-04-19 11:03:03,818 [INFO] Habit tracked: 'weather' at hour 11 (count: 2)
+2026-04-19 11:03:03,971 [ERROR] Weather error: 'main'
+2026-04-19 11:03:28,392 [INFO] Heard: 'do you know the price of Bitcoin'
+2026-04-19 11:03:33,090 [INFO] Falling back to Wikipedia for 'do you know the  bitcoin'.
+2026-04-19 11:03:33,726 [INFO] Wikipedia search returned 3 results.
+2026-04-19 11:03:35,970 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 11:03:36,454 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:04:05,870 [INFO] Heard: 'what is the news of AI today'
+2026-04-19 11:04:10,766 [INFO] Falling back to Wikipedia for 'what is the news of AI today'.
+2026-04-19 11:04:11,515 [INFO] Wikipedia search returned 3 results.
+2026-04-19 11:04:13,553 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 11:04:14,063 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:04:39,046 [INFO] Heard: 'Jarvis I can hear two voices'
+2026-04-19 11:04:43,046 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 11:04:43,555 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:04:55,432 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:05:05,250 [INFO] Heard: 'stop Jarvis'
+2026-04-19 11:05:05,774 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:05:13,361 [INFO] Heard: 'goodbye'
+2026-04-19 11:05:13,863 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:05:50,290 [INFO] Wake word check: 'jarvis'
+2026-04-19 11:05:50,830 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 11:05:57,387 [INFO] Heard: 'exit'
+2026-04-19 11:05:57,895 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:14:10,736 [INFO] Initialising Jarvis...
+2026-04-19 18:14:11,321 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-19 18:14:11,322 [INFO] Speech recogniser ready.
+2026-04-19 18:14:11,322 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:14:11,351 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:14:11,351 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:14:11,352 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:14:11,352 [INFO] Jarvis fully initialised.
+2026-04-19 18:14:12,470 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:14:12,741 [INFO] Force exiting.
+2026-04-19 18:15:26,551 [INFO] Initialising Jarvis...
+2026-04-19 18:15:27,103 [INFO] Voice engine ready. ElevenLabs: True
+2026-04-19 18:15:27,103 [INFO] Speech recogniser ready.
+2026-04-19 18:15:27,103 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:15:27,133 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:15:27,133 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:15:27,133 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:15:27,133 [INFO] Jarvis fully initialised.
+2026-04-19 18:15:27,760 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:15:44,421 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:15:45,271 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:15:48,547 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:15:51,722 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:04,825 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:16:05,444 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:11,306 [INFO] Heard: 'what are you doing'
+2026-04-19 18:16:12,922 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:16:13,532 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:18,859 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:22,933 [INFO] Heard: 'how are you'
+2026-04-19 18:16:25,414 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:16:25,917 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:33,092 [INFO] Heard: 'how can I help you today'
+2026-04-19 18:16:33,708 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:35,325 [INFO] Falling back to Wikipedia for 'how can I help you today'.
+2026-04-19 18:16:36,246 [INFO] Wikipedia search returned 3 results.
+2026-04-19 18:16:38,726 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:16:39,216 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:42,707 [INFO] Heard: 'turning the tables on'
+2026-04-19 18:16:44,971 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:16:45,496 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:16:57,669 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:17:05,972 [INFO] Heard: 'what's the weather'
+2026-04-19 18:17:05,976 [INFO] Habit tracked: 'weather' at hour 18 (count: 1)
+2026-04-19 18:17:06,054 [ERROR] Weather error: 'main'
+2026-04-19 18:17:06,578 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:17:07,059 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:17:30,053 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:17:37,199 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:18:11,395 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:18:12,014 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:18:19,259 [INFO] Heard: 'what happened to your voice'
+2026-04-19 18:18:19,796 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:18:21,141 [INFO] Google News returned 5 results for 'to your voice'.
+2026-04-19 18:18:23,705 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:18:24,301 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:18:32,960 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:18:38,435 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:19:32,886 [INFO] Wake word check: 'exit'
+2026-04-19 18:19:42,038 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:19:42,541 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:19:53,434 [INFO] Heard: 'exit'
+2026-04-19 18:19:53,927 [WARNING] ElevenLabs 401, falling back.
+2026-04-19 18:27:50,598 [INFO] Initialising Jarvis...
+2026-04-19 18:27:51,125 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:27:51,126 [INFO] Speech recogniser ready.
+2026-04-19 18:27:51,126 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:27:51,155 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:27:51,155 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:27:51,155 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:27:51,155 [INFO] Jarvis fully initialised.
+2026-04-19 18:28:02,164 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:28:22,238 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:28:42,624 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:28:49,805 [INFO] Heard: 'what are you up to'
+2026-04-19 18:28:51,909 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:29:12,017 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:33:45,308 [INFO] Initialising Jarvis...
+2026-04-19 18:33:45,852 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:33:45,852 [INFO] Speech recogniser ready.
+2026-04-19 18:33:45,852 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:33:45,882 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:33:45,882 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:33:45,882 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:33:45,882 [INFO] Jarvis fully initialised.
+2026-04-19 18:33:57,086 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:34:00,026 [ERROR] Main loop error: 'Jarvis' object has no attribute '_stop_event'
+2026-04-19 18:38:14,781 [INFO] Initialising Jarvis...
+2026-04-19 18:38:15,360 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:38:15,360 [INFO] Speech recogniser ready.
+2026-04-19 18:38:15,360 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:38:15,390 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:38:15,390 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:38:15,390 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:38:15,391 [INFO] Jarvis fully initialised.
+2026-04-19 18:38:27,003 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:38:32,429 [INFO] Heard: 'how are you feeling'
+2026-04-19 18:38:35,065 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:38:43,086 [ERROR] Main loop error: VoiceEngine.speak() takes 2 positional arguments but 3 were given
+2026-04-19 18:41:08,108 [INFO] Initialising Jarvis...
+2026-04-19 18:41:08,703 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:41:08,704 [INFO] Speech recogniser ready.
+2026-04-19 18:41:08,704 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:41:08,732 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:41:08,732 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:41:08,732 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:41:08,732 [INFO] Jarvis fully initialised.
+2026-04-19 18:41:26,916 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:41:31,534 [INFO] Heard: 'how are you feeling'
+2026-04-19 18:41:35,435 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:41:50,579 [INFO] Heard: 'yeah everything is perfectly fine'
+2026-04-19 18:41:52,422 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:42:08,413 [INFO] Heard: 'everything is perfectly fine'
+2026-04-19 18:42:10,342 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 18:56:20,177 [INFO] Initialising Jarvis...
+2026-04-19 18:56:20,743 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:56:20,743 [INFO] Speech recogniser ready.
+2026-04-19 18:56:20,743 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:56:20,774 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:56:20,774 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:56:20,774 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:56:20,774 [INFO] Jarvis fully initialised.
+2026-04-19 18:56:20,774 [WARNING] Edge TTS failed: No module named 'edge_tts'. Using pyttsx3.
+2026-04-19 18:56:35,217 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:56:35,223 [WARNING] Edge TTS failed: No module named 'edge_tts'. Using pyttsx3.
+2026-04-19 18:56:38,126 [WARNING] Edge TTS failed: No module named 'edge_tts'. Using pyttsx3.
+2026-04-19 18:56:40,898 [WARNING] Edge TTS failed: No module named 'edge_tts'. Using pyttsx3.
+2026-04-19 18:56:46,685 [WARNING] Edge TTS failed: No module named 'edge_tts'. Using pyttsx3.
+2026-04-19 18:56:50,704 [WARNING] Edge TTS failed: No module named 'edge_tts'. Using pyttsx3.
+2026-04-19 18:57:52,586 [INFO] Initialising Jarvis...
+2026-04-19 18:57:53,079 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:57:53,079 [INFO] Speech recogniser ready.
+2026-04-19 18:57:53,079 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:57:53,106 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:57:53,107 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:57:53,107 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:57:53,107 [INFO] Jarvis fully initialised.
+2026-04-19 18:57:54,446 [WARNING] Edge TTS failed: 'VoiceEngine' object has no attribute 'edge_voice'. Using pyttsx3.
+2026-04-19 18:59:28,477 [INFO] Initialising Jarvis...
+2026-04-19 18:59:29,055 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 18:59:29,055 [INFO] Speech recogniser ready.
+2026-04-19 18:59:29,055 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 18:59:29,084 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 18:59:29,084 [INFO] Loaded 20 messages from memory.
+2026-04-19 18:59:29,084 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 18:59:29,084 [INFO] Jarvis fully initialised.
+2026-04-19 18:59:44,810 [INFO] Wake word check: 'jarvis'
+2026-04-19 18:59:52,957 [INFO] Heard: 'how are you feeling'
+2026-04-19 18:59:54,790 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:00:08,297 [INFO] Heard: 'tell me what is the weather'
+2026-04-19 19:00:08,301 [INFO] Habit tracked: 'weather' at hour 19 (count: 1)
+2026-04-19 19:00:27,549 [INFO] Heard: 'could you please give me information for weather on Mumbai'
+2026-04-19 19:00:27,553 [INFO] Habit tracked: 'weather' at hour 19 (count: 2)
+2026-04-19 19:00:27,810 [ERROR] Weather error: 'main'
+2026-04-19 19:00:47,722 [INFO] Heard: 'nothing I am still thinking could you please give me some time'
+2026-04-19 19:00:47,726 [INFO] Habit tracked: 'time' at hour 19 (count: 1)
+2026-04-19 19:00:49,742 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:01:12,677 [INFO] Heard: 'do you remember'
+2026-04-19 19:01:14,706 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:01:38,211 [INFO] Heard: 'no'
+2026-04-19 19:01:48,892 [INFO] Heard: 'what is my name Jarvis'
+2026-04-19 19:01:51,317 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:02:04,156 [INFO] Heard: 'Rishabh'
+2026-04-19 19:02:07,903 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:02:22,548 [INFO] Heard: 'you need to remember three things'
+2026-04-19 19:02:24,493 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:02:35,844 [INFO] Heard: 'first thing is you can call me'
+2026-04-19 19:02:37,806 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:02:53,177 [INFO] Heard: 'you can call me sir'
+2026-04-19 19:03:02,895 [INFO] Heard: 'no that was not'
+2026-04-19 19:03:04,228 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:03:16,920 [INFO] Heard: 'so first thing is you can call me sir'
+2026-04-19 19:03:18,459 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:03:28,902 [INFO] Heard: 'you can call me boss'
+2026-04-19 19:03:30,852 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:03:43,357 [INFO] Heard: 'you can also call me RG'
+2026-04-19 19:03:48,147 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:04:05,689 [INFO] Heard: 'yes'
+2026-04-19 19:04:05,693 [INFO] Good response saved. Total saved: 2
+2026-04-19 19:04:25,121 [INFO] Heard: 'do you know my favourite sport'
+2026-04-19 19:04:31,306 [INFO] Falling back to Wikipedia for 'do you know my favourite sport'.
+2026-04-19 19:04:32,089 [INFO] Wikipedia search returned 3 results.
+2026-04-19 19:04:33,519 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:04:46,499 [INFO] Heard: 'cricket'
+2026-04-19 19:04:48,033 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:05:04,445 [INFO] Heard: 'so there is no third'
+2026-04-19 19:05:06,699 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:05:27,791 [INFO] Heard: 'no nothing as of now good work Jarvis'
+2026-04-19 19:05:33,374 [INFO] Falling back to Wikipedia for 'no nothing as of now good work Jarvis'.
+2026-04-19 19:05:34,144 [INFO] Wikipedia search returned 3 results.
+2026-04-19 19:05:36,397 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:05:56,845 [INFO] Heard: 'no Jarvis'
+2026-04-19 19:05:58,455 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 19:06:12,643 [INFO] Heard: 'cool you can sleep now'
+2026-04-19 19:06:26,210 [INFO] Wake word check: 'jarvis'
+2026-04-19 19:06:33,781 [INFO] Heard: 'exit'
+2026-04-19 22:19:42,734 [INFO] Initialising Jarvis...
+2026-04-19 22:19:43,381 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-19 22:19:43,382 [INFO] Speech recogniser ready.
+2026-04-19 22:19:43,382 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-19 22:19:43,411 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-19 22:19:43,411 [INFO] Loaded 20 messages from memory.
+2026-04-19 22:19:43,411 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-19 22:19:43,411 [INFO] Jarvis fully initialised.
+2026-04-19 22:20:03,249 [INFO] Wake word check: 'jarvis'
+2026-04-19 22:20:12,927 [INFO] Heard: 'what is the temperature right now'
+2026-04-19 22:20:19,078 [INFO] Falling back to Wikipedia for 'what is the temperature right now'.
+2026-04-19 22:20:19,858 [INFO] Wikipedia search returned 3 results.
+2026-04-19 22:20:22,462 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:20:43,757 [INFO] Heard: 'tell me the live score of IPL'
+2026-04-19 22:20:49,957 [INFO] Falling back to Wikipedia for 'tell me the live score of IPL'.
+2026-04-19 22:20:50,666 [INFO] Wikipedia search returned 3 results.
+2026-04-19 22:20:55,548 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:21:21,374 [INFO] Heard: 'how are you feeling Jarvis'
+2026-04-19 22:21:23,492 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:21:44,855 [INFO] Heard: 'so if I want to play planet date for a girlfriend what is the best restaurant in Mumbai'
+2026-04-19 22:21:44,859 [INFO] Habit tracked: 'date' at hour 22 (count: 1)
+2026-04-19 22:21:48,092 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:22:14,895 [INFO] Heard: 'no thank you so much Jarvis'
+2026-04-19 22:22:17,048 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:23:10,242 [INFO] Heard: 'yes thank you so much developed'
+2026-04-19 22:23:10,246 [INFO] Good response saved. Total saved: 3
+2026-04-19 22:23:29,555 [INFO] Heard: 'jarvis go to sleep'
+2026-04-19 22:28:04,192 [INFO] Wake word check: 'abhi type nahin karta'
+2026-04-19 22:28:24,300 [INFO] Wake word check: 'jarvis'
+2026-04-19 22:28:31,749 [INFO] Heard: 'please stop listen'
+2026-04-19 22:28:52,743 [INFO] Heard: 'nothing just shut down yourself'
+2026-04-19 22:28:54,726 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:29:27,335 [INFO] Heard: 'go to sleep'
+2026-04-19 22:29:36,907 [INFO] Wake word check: 'fuck you jar'
+2026-04-19 22:29:41,495 [INFO] Wake word check: 'oh sorry sun liya'
+2026-04-19 22:29:48,370 [INFO] Wake word check: 'jarvis'
+2026-04-19 22:30:02,943 [INFO] Heard: 'you motherfucker'
+2026-04-19 22:30:04,835 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:30:19,717 [INFO] Heard: 'Hindi mein dena'
+2026-04-19 22:30:22,891 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-19 22:30:46,318 [INFO] Heard: 'no'
+2026-04-19 22:30:58,288 [INFO] Heard: 'ok bye-bye good night'
+2026-04-20 00:18:59,072 [INFO] Initialising Jarvis...
+2026-04-20 00:18:59,579 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 00:18:59,579 [INFO] Speech recogniser ready.
+2026-04-20 00:18:59,579 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 00:18:59,608 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 00:18:59,609 [INFO] Loaded 20 messages from memory.
+2026-04-20 00:18:59,609 [INFO] Web brain ready. Using Google + Wikipedia fallback.
+2026-04-20 00:18:59,609 [INFO] Jarvis fully initialised.
+2026-04-20 00:19:15,590 [INFO] Wake word check: 'jarvis'
+2026-04-20 00:19:33,017 [INFO] Heard: 'how are you feeling Jarvis'
+2026-04-20 00:19:35,915 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:19:57,571 [INFO] Heard: 'what's the weather today Jarvis'
+2026-04-20 00:19:57,574 [INFO] Habit tracked: 'weather' at hour 0 (count: 1)
+2026-04-20 00:19:57,652 [ERROR] Weather error: 'main'
+2026-04-20 00:20:07,289 [INFO] Heard: 'do you know my name'
+2026-04-20 00:20:12,373 [INFO] Falling back to Wikipedia for 'do you know my name'.
+2026-04-20 00:20:13,294 [INFO] Wikipedia search returned 3 results.
+2026-04-20 00:20:15,528 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:20:42,580 [INFO] Heard: 'kya bole isko'
+2026-04-20 00:20:45,446 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:21:04,816 [INFO] Heard: 'Jarvis'
+2026-04-20 00:21:06,336 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:21:35,566 [INFO] Heard: 'yes Jarvis'
+2026-04-20 00:21:37,323 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:22:00,196 [INFO] Heard: 'Jayesh go to sleep'
+2026-04-20 00:22:15,756 [INFO] Wake word check: 'tum bol sakte ho'
+2026-04-20 00:22:47,703 [INFO] Wake word check: 'jarvis'
+2026-04-20 00:22:55,955 [INFO] Heard: 'could you please open YouTube for me'
+2026-04-20 00:22:55,957 [INFO] Habit tracked: 'youtube' at hour 0 (count: 1)
+2026-04-20 00:23:07,440 [INFO] Heard: 'Jarvis'
+2026-04-20 00:23:09,114 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:23:20,781 [INFO] Heard: 'the first video on YouTube'
+2026-04-20 00:23:20,784 [INFO] Habit tracked: 'youtube' at hour 0 (count: 2)
+2026-04-20 00:23:23,015 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:24:01,442 [INFO] Heard: 'Jarvis could you please search a song'
+2026-04-20 00:24:02,877 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:24:18,750 [INFO] Heard: 'search for Goat from Diljit'
+2026-04-20 00:24:30,119 [INFO] Heard: 'could you play that song for me'
+2026-04-20 00:24:31,859 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 00:24:55,324 [INFO] Heard: 'correct'
+2026-04-20 12:07:35,386 [INFO] Initialising Jarvis...
+2026-04-20 12:07:36,023 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 12:07:36,024 [INFO] Speech recogniser ready.
+2026-04-20 12:07:36,024 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 12:07:36,089 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 12:07:36,090 [INFO] Loaded 20 messages from memory.
+2026-04-20 12:07:36,090 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 12:07:36,090 [INFO] Jarvis fully initialised.
+2026-04-20 12:07:53,479 [INFO] Wake word check: 'jarvis'
+2026-04-20 12:08:01,451 [INFO] Heard: 'please open YouTube'
+2026-04-20 12:08:01,457 [INFO] Habit tracked: 'youtube' at hour 12 (count: 1)
+2026-04-20 12:08:03,124 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:08:28,501 [INFO] Heard: 'could you please open YouTube'
+2026-04-20 12:08:28,505 [INFO] Habit tracked: 'youtube' at hour 12 (count: 2)
+2026-04-20 12:08:30,448 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:09:09,902 [INFO] Heard: 'I don't see YouTube open'
+2026-04-20 12:09:09,908 [INFO] Habit tracked: 'youtube' at hour 12 (count: 3)
+2026-04-20 12:09:13,011 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:09:49,057 [INFO] Heard: 'open it in the browser'
+2026-04-20 12:09:49,060 [ERROR] Main loop error: 'Jarvis' object has no attribute 'browser'
+2026-04-20 12:12:01,169 [INFO] Initialising Jarvis...
+2026-04-20 12:12:01,736 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 12:12:01,736 [INFO] Speech recogniser ready.
+2026-04-20 12:12:01,736 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 12:12:01,804 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 12:12:01,805 [INFO] Loaded 20 messages from memory.
+2026-04-20 12:12:01,805 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 12:12:01,817 [INFO] ====== WebDriver manager ======
+2026-04-20 12:12:02,646 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 12:12:02,717 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 12:12:02,749 [INFO] There is no [mac64] chromedriver "147.0.7727.57" for browser google-chrome "147.0.7727" in cache
+2026-04-20 12:12:02,757 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 12:12:02,850 [INFO] WebDriver version 147.0.7727.57 selected
+2026-04-20 12:12:02,853 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.57/mac-arm64/chromedriver-mac-arm64.zip
+2026-04-20 12:12:02,854 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.57/mac-arm64/chromedriver-mac-arm64.zip
+2026-04-20 12:12:02,903 [INFO] Driver downloading response is 200
+2026-04-20 12:12:03,164 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 12:12:03,279 [INFO] Driver has been saved in cache [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57]
+2026-04-20 12:12:06,535 [INFO] Browser controller ready.
+2026-04-20 12:12:06,537 [INFO] Jarvis fully initialised.
+2026-04-20 12:12:30,299 [INFO] Wake word check: 'jarvis'
+2026-04-20 12:12:39,813 [INFO] Heard: 'could you please open YouTube for me'
+2026-04-20 12:12:39,816 [INFO] Habit tracked: 'youtube' at hour 12 (count: 4)
+2026-04-20 12:12:42,502 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:13:10,679 [INFO] Heard: 'could you please open browser for'
+2026-04-20 12:13:15,248 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:15:10,455 [INFO] Wake word check: 'jarvis'
+2026-04-20 12:15:19,869 [INFO] Heard: 'could you please tell me the latest news about air'
+2026-04-20 12:15:25,511 [INFO] Google News RSS returned 5 results for 'could you please tell me the  air'.
+2026-04-20 12:15:28,824 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:15:59,910 [INFO] Heard: 'could you please tell me when is that news published'
+2026-04-20 12:16:06,589 [INFO] Falling back to Wikipedia for 'could you please tell me when is that news published'.
+2026-04-20 12:16:07,407 [INFO] Wikipedia returned 3 results for 'could you please tell me when is that news published'.
+2026-04-20 12:16:10,663 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:16:53,566 [INFO] Heard: 'could you please tell me the source of your information where you try to'
+2026-04-20 12:16:58,183 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 12:17:38,730 [INFO] Heard: 'yeah inde'
+2026-04-20 12:17:55,308 [INFO] Heard: 'go to sleep Jarvis'
+2026-04-20 13:38:11,453 [INFO] Initialising Jarvis...
+2026-04-20 13:38:11,942 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 13:38:11,942 [INFO] Speech recogniser ready.
+2026-04-20 13:38:11,942 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 13:38:12,013 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 13:38:12,013 [INFO] Loaded 20 messages from memory.
+2026-04-20 13:38:12,013 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 13:38:12,026 [INFO] ====== WebDriver manager ======
+2026-04-20 13:38:12,544 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 13:38:12,622 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 13:38:12,656 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 13:38:15,449 [INFO] Browser controller ready.
+2026-04-20 13:38:15,451 [INFO] Jarvis fully initialised.
+2026-04-20 13:38:34,710 [INFO] Wake word check: 'jarvis'
+2026-04-20 13:38:42,663 [INFO] Heard: 'could you please open Google Chrome'
+2026-04-20 13:38:45,055 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:42:03,181 [INFO] Initialising Jarvis...
+2026-04-20 13:42:03,712 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 13:42:03,713 [INFO] Speech recogniser ready.
+2026-04-20 13:42:03,713 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 13:42:03,780 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 13:42:03,781 [INFO] Loaded 20 messages from memory.
+2026-04-20 13:42:03,781 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 13:42:03,794 [INFO] ====== WebDriver manager ======
+2026-04-20 13:42:04,319 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 13:42:04,398 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 13:42:04,430 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 13:42:07,055 [INFO] Browser controller ready.
+2026-04-20 13:42:07,056 [INFO] Jarvis fully initialised.
+2026-04-20 13:43:05,307 [INFO] Wake word check: 'jarvis'
+2026-04-20 13:43:20,102 [INFO] Heard: 'open YouTube'
+2026-04-20 13:43:20,104 [INFO] Habit tracked: 'youtube' at hour 13 (count: 1)
+2026-04-20 13:43:36,141 [INFO] Heard: 'search goat on YouTube'
+2026-04-20 13:43:36,147 [INFO] Habit tracked: 'youtube' at hour 13 (count: 2)
+2026-04-20 13:43:39,462 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:44:25,130 [INFO] Heard: 'play goat on YouTube'
+2026-04-20 13:44:25,143 [INFO] Habit tracked: 'youtube' at hour 13 (count: 3)
+2026-04-20 13:46:06,334 [INFO] Wake word check: 'jarvis'
+2026-04-20 13:46:17,258 [INFO] Heard: 'replay the song in YouTube'
+2026-04-20 13:46:17,263 [INFO] Habit tracked: 'youtube' at hour 13 (count: 4)
+2026-04-20 13:46:19,400 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:46:55,062 [INFO] Heard: 'open YouTube'
+2026-04-20 13:46:55,076 [INFO] Habit tracked: 'youtube' at hour 13 (count: 5)
+2026-04-20 13:47:09,482 [INFO] Heard: 'no'
+2026-04-20 13:47:19,313 [INFO] Heard: 'open Gmail'
+2026-04-20 13:47:19,321 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:47:31,484 [INFO] Heard: 'compose a ma'
+2026-04-20 13:47:34,475 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:47:53,825 [INFO] Heard: 'yes compose a mail for me'
+2026-04-20 13:47:57,615 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:48:24,749 [INFO] Heard: 'subject should be test and the body should also contain test'
+2026-04-20 13:48:27,311 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:49:06,121 [INFO] Heard: 'no'
+2026-04-20 13:49:21,277 [INFO] Heard: 'compose a mail on Gmail for me'
+2026-04-20 13:49:24,349 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:50:04,662 [INFO] Heard: 'open Google for me'
+2026-04-20 13:50:04,698 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:50:15,939 [INFO] Heard: 'search'
+2026-04-20 13:50:17,906 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:50:33,686 [INFO] Heard: 'search on Google what's the weather today'
+2026-04-20 13:50:33,689 [INFO] Habit tracked: 'weather' at hour 13 (count: 1)
+2026-04-20 13:50:33,789 [ERROR] Weather error: 'main'
+2026-04-20 13:50:47,899 [INFO] Heard: 'no'
+2026-04-20 13:50:59,580 [INFO] Heard: 'could you please search something on Google for me'
+2026-04-20 13:51:03,072 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:51:29,468 [INFO] Heard: 'search what is the price of gold today'
+2026-04-20 13:51:34,720 [INFO] Google News RSS returned 5 results for 'search what is the  gold today'.
+2026-04-20 13:51:39,213 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:52:20,725 [INFO] Heard: 'open Google for me'
+2026-04-20 13:52:20,753 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:52:34,911 [INFO] Heard: 'can you compose a Email for me on'
+2026-04-20 13:52:36,907 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:53:29,668 [INFO] Heard: 'open YouTube'
+2026-04-20 13:53:29,673 [INFO] Habit tracked: 'youtube' at hour 13 (count: 6)
+2026-04-20 13:53:29,698 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:53:41,810 [INFO] Heard: 'play goat on YouTube'
+2026-04-20 13:53:41,814 [INFO] Habit tracked: 'youtube' at hour 13 (count: 7)
+2026-04-20 13:53:41,843 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:53:44,039 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:53:53,818 [INFO] Heard: 'play goat'
+2026-04-20 13:53:53,827 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:53:56,067 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:54:21,879 [INFO] Heard: 'play God on YouTube'
+2026-04-20 13:54:21,882 [INFO] Habit tracked: 'youtube' at hour 13 (count: 8)
+2026-04-20 13:54:21,890 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:54:24,076 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:54:39,400 [INFO] Heard: 'no'
+2026-04-20 13:54:53,813 [INFO] Heard: 'play goat'
+2026-04-20 13:54:53,823 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:54:56,106 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:55:21,469 [INFO] Heard: 'play Samay Rahana'
+2026-04-20 13:55:21,477 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:55:23,703 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:55:53,618 [INFO] Heard: 'play music on YouTube'
+2026-04-20 13:55:53,626 [INFO] Habit tracked: 'youtube' at hour 13 (count: 9)
+2026-04-20 13:55:53,632 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:55:55,911 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:56:43,438 [INFO] Heard: 'play goat on YouTube'
+2026-04-20 13:56:43,446 [INFO] Habit tracked: 'youtube' at hour 13 (count: 10)
+2026-04-20 13:56:43,476 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:56:45,768 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:57:12,336 [INFO] Heard: 'type goat on YouTube'
+2026-04-20 13:57:12,340 [INFO] Habit tracked: 'youtube' at hour 13 (count: 11)
+2026-04-20 13:57:15,563 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 13:58:02,968 [INFO] Heard: 'play goat'
+2026-04-20 13:58:02,993 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:58:05,183 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 13:59:00,353 [INFO] No input — going to sleep.
+2026-04-20 14:05:53,578 [INFO] Wake word check: 'jarvis'
+2026-04-20 14:06:03,101 [INFO] Heard: 'search YouTube for Goat'
+2026-04-20 14:06:03,108 [INFO] Habit tracked: 'youtube' at hour 14 (count: 1)
+2026-04-20 14:06:03,133 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 14:06:05,351 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 14:06:18,332 [INFO] Heard: 'play goat'
+2026-04-20 14:06:18,344 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 14:06:20,659 [ERROR] Search error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x0000000102d5fabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d57a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027fc21c chromedriver + 164380
+4   chromedriver                        0x0000000102893f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001028aaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102860e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102d1d248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102d20a28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102d031fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102d212a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cf4024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d46988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d46b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d576e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 14:09:36,306 [INFO] Initialising Jarvis...
+2026-04-20 14:09:36,798 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 14:09:36,798 [INFO] Speech recogniser ready.
+2026-04-20 14:09:36,798 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 14:09:36,865 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 14:09:36,865 [INFO] Loaded 20 messages from memory.
+2026-04-20 14:09:36,865 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 14:09:36,879 [INFO] ====== WebDriver manager ======
+2026-04-20 14:09:37,197 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 14:09:37,272 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 14:09:37,306 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 14:09:39,857 [INFO] Browser controller ready.
+2026-04-20 14:09:39,858 [INFO] Jarvis fully initialised.
+2026-04-20 14:10:02,859 [INFO] Wake word check: 'jarvis'
+2026-04-20 14:10:10,713 [INFO] Heard: 'play goat'
+2026-04-20 14:10:46,255 [INFO] Heard: 'Shayad yah video Ab Tak'
+2026-04-20 14:10:48,409 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 14:11:42,935 [INFO] Heard: 'Resume the song'
+2026-04-20 14:11:44,882 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 14:12:18,981 [INFO] Heard: 'play obsessed'
+2026-04-20 14:13:23,404 [INFO] Wake word check: 'jarvis'
+2026-04-20 14:13:34,653 [INFO] Heard: 'resume obsessed'
+2026-04-20 14:13:37,319 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 14:14:09,440 [INFO] Heard: 'play Brown Rang'
+2026-04-20 14:14:22,369 [INFO] Heard: 'play Brown Rang'
+2026-04-20 16:19:13,537 [INFO] Initialising Jarvis...
+2026-04-20 16:19:14,102 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 16:19:14,102 [INFO] Speech recogniser ready.
+2026-04-20 16:19:14,102 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 16:19:14,170 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 16:19:14,170 [INFO] Loaded 20 messages from memory.
+2026-04-20 16:19:14,170 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 16:19:14,189 [INFO] ====== WebDriver manager ======
+2026-04-20 16:19:14,688 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 16:19:14,758 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 16:19:14,792 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 16:19:16,653 [INFO] Browser controller ready.
+2026-04-20 16:19:16,653 [INFO] Jarvis fully initialised.
+2026-04-20 16:19:32,781 [INFO] Wake word check: 'jarvis'
+2026-04-20 16:19:47,304 [INFO] Heard: 'play goat'
+2026-04-20 16:21:13,649 [INFO] Wake word check: 'jarvis'
+2026-04-20 16:21:25,425 [INFO] Heard: 'play obsessed'
+2026-04-20 16:21:53,641 [INFO] Heard: 'pause'
+2026-04-20 16:22:30,237 [INFO] Heard: 'resume'
+2026-04-20 16:22:48,979 [INFO] Heard: 'nahin kar Paya'
+2026-04-20 16:22:53,148 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 16:23:34,055 [INFO] Heard: 'when the argument and'
+2026-04-20 16:23:40,746 [INFO] Heard: 'Jarvis'
+2026-04-20 16:23:44,257 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 16:23:57,295 [INFO] Heard: 'go and sleep'
+2026-04-20 19:40:31,571 [INFO] Initialising Jarvis...
+2026-04-20 19:40:32,080 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 19:40:32,080 [INFO] Speech recogniser ready.
+2026-04-20 19:40:32,080 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 19:40:32,151 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 19:40:32,151 [INFO] Loaded 20 messages from memory.
+2026-04-20 19:40:32,151 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 19:40:32,165 [INFO] ====== WebDriver manager ======
+2026-04-20 19:40:32,703 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 19:40:32,779 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 19:40:32,812 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 19:40:34,818 [INFO] Browser controller ready.
+2026-04-20 19:40:34,819 [INFO] Jarvis fully initialised.
+2026-04-20 19:40:53,786 [INFO] Wake word check: 'jarvis'
+2026-04-20 19:41:03,698 [INFO] Heard: 'play'
+2026-04-20 19:41:07,802 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:41:42,870 [INFO] Heard: 'play go'
+2026-04-20 19:41:42,937 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:41:49,113 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:41:56,274 [INFO] YouTube keep-alive thread started.
+2026-04-20 19:41:56,275 [INFO] Playing YouTube: 'BLACKPINK - ‘GO’ M/V'
+2026-04-20 19:42:26,638 [INFO] Heard: 'play goat'
+2026-04-20 19:42:26,685 [INFO] Skipped YouTube ad.
+2026-04-20 19:42:26,743 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-04-20 19:42:26,743 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:42:33,577 [INFO] YouTube keep-alive thread started.
+2026-04-20 19:42:33,577 [INFO] Playing YouTube: 'Diljit Dosanjh - G.O.A.T. (Official Music Video)'
+2026-04-20 19:43:06,481 [INFO] Heard: 'reduce volume'
+2026-04-20 19:43:09,923 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:43:44,009 [INFO] Heard: 'sleep Jarvis'
+2026-04-20 19:43:58,292 [INFO] Wake word check: 'iski capabilities mein add kiya maine ki playing youtube videos by on'
+2026-04-20 19:44:32,287 [INFO] Wake word check: 'jarvis'
+2026-04-20 19:44:40,511 [INFO] Heard: 'play obsessed'
+2026-04-20 19:44:40,517 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:44:47,309 [INFO] YouTube keep-alive thread started.
+2026-04-20 19:44:47,310 [INFO] Playing YouTube: 'Obsessed - Riar Saab, @AbhijaySharma | Official Music Video'
+2026-04-20 19:45:06,697 [INFO] Heard: 'yes that was helpful'
+2026-04-20 19:45:06,701 [INFO] Good response saved. Total saved: 4
+2026-04-20 19:45:26,965 [INFO] Heard: 'Prime video'
+2026-04-20 19:45:29,124 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:45:46,222 [INFO] Heard: 'Jarvis'
+2026-04-20 19:45:48,479 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:46:02,299 [INFO] Heard: 'I meant all the video'
+2026-04-20 19:46:05,166 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:46:28,222 [INFO] Heard: 'play to simply terminal Pe Chal Re'
+2026-04-20 19:46:28,231 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:46:30,157 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-04-20 19:46:34,599 [INFO] YouTube keep-alive thread started.
+2026-04-20 19:46:34,600 [INFO] Playing YouTube: 'to simply terminal pe chal re'
+2026-04-20 19:46:49,709 [INFO] Heard: 'no jarv'
+2026-04-20 19:46:59,238 [INFO] Heard: 'replay the last video'
+2026-04-20 19:47:03,125 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:47:35,790 [INFO] Heard: 'Jarvis could you please help me out in dinner plans'
+2026-04-20 19:47:41,526 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:48:02,815 [INFO] Heard: 'where thinking of cooking something at home so could you please give us some'
+2026-04-20 19:48:09,791 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:48:37,228 [INFO] Heard: 'we are cooking for three people and we prefer north'
+2026-04-20 19:48:42,033 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:49:25,765 [INFO] Heard: 'please stop saying emo'
+2026-04-20 19:49:36,107 [INFO] Heard: 'hello images banate Samay bolata rahata sath'
+2026-04-20 19:49:39,460 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:50:40,723 [INFO] Heard: 'so Jarvis we have all the'
+2026-04-20 19:50:43,679 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:51:04,461 [INFO] Heard: 'so we have all the ingredients Just suggest few more recipes for dinner'
+2026-04-20 19:51:09,173 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:51:41,796 [INFO] Heard: 'tennis few more'
+2026-04-20 19:51:47,469 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:52:29,737 [INFO] Heard: 'Jarvis thank you so much we just want few more options which are you know we can eat with'
+2026-04-20 19:52:42,764 [INFO] Heard: 'just give us few more options that we can eat with roti'
+2026-04-20 19:52:49,321 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:57:22,681 [INFO] Heard: 'Saturday ko Sangeet mein'
+2026-04-20 19:57:26,642 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:59:00,642 [INFO] Heard: 'jarvis play obsessed'
+2026-04-20 19:59:04,407 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 19:59:21,968 [INFO] Heard: 'cancel'
+2026-04-20 19:59:36,039 [INFO] Heard: 'no'
+2026-04-20 19:59:46,093 [INFO] Heard: 'open YouTube'
+2026-04-20 19:59:46,099 [INFO] Habit tracked: 'youtube' at hour 19 (count: 1)
+2026-04-20 19:59:46,099 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:59:46,104 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x00000001052cbabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001052c3a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104d8f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104d6821c chromedriver + 164380
+4   chromedriver                        0x0000000104dfff64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104e16f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104dcce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000105289248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x000000010528ca28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010526f1fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x000000010528d2a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000105260024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001052b2988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001052b2b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001052c36e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 19:59:55,584 [INFO] Heard: 'play obsessed'
+2026-04-20 19:59:55,604 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:59:55,605 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x00000001052cbabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001052c3a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104d8f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104d6821c chromedriver + 164380
+4   chromedriver                        0x0000000104dfff64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104e16f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104dcce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000105289248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x000000010528ca28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010526f1fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x000000010528d2a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000105260024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001052b2988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001052b2b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001052c36e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 19:59:57,794 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 19:59:57,805 [ERROR] YouTube play error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x00000001052cbabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001052c3a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104d8f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104d6821c chromedriver + 164380
+4   chromedriver                        0x0000000104dfff64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104e16f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104dcce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000105289248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x000000010528ca28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010526f1fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x000000010528d2a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000105260024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001052b2988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001052b2b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001052c36e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 20:00:17,212 [INFO] Heard: 'teen teen brouser'
+2026-04-20 20:00:19,980 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 <none>"
+2026-04-20 20:00:19,982 [INFO] Retrying request to /v1/messages in 0.465767 seconds
+2026-04-20 20:00:22,641 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 422 Unprocessable Entity"
+2026-04-20 20:00:22,649 [ERROR] Claude API error: Error code: 422 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'context reduction is suggested'}, 'request_id': 'req_011CaFBbNC9L9PUko6Xj9YUj'}
+2026-04-20 20:00:35,952 [INFO] Heard: 'main bahut pasand'
+2026-04-20 20:00:42,919 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 20:01:05,458 [INFO] Heard: 'no'
+2026-04-20 20:01:14,733 [INFO] Heard: 'play goat'
+2026-04-20 20:01:14,741 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 20:01:14,743 [ERROR] Open error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x00000001052cbabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001052c3a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104d8f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104d6821c chromedriver + 164380
+4   chromedriver                        0x0000000104dfff64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104e16f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104dcce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000105289248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x000000010528ca28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010526f1fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x000000010528d2a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000105260024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001052b2988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001052b2b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001052c36e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 20:01:16,904 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 20:01:16,914 [ERROR] YouTube play error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.101)
+Stacktrace:
+0   chromedriver                        0x00000001052cbabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001052c3a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104d8f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104d6821c chromedriver + 164380
+4   chromedriver                        0x0000000104dfff64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104e16f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104dcce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000105289248 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x000000010528ca28 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010526f1fc cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x000000010528d2a8 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000105260024 cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001052b2988 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001052b2b04 cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001052c36e4 cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x0000000198cff2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198cfa0fc thread_start + 8
+
+2026-04-20 20:01:38,110 [INFO] Heard: 'could you please click on the video'
+2026-04-20 20:01:42,412 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 20:02:06,063 [INFO] Heard: 'click on goat Diljit Dosanjh video on YouTube'
+2026-04-20 20:02:06,067 [INFO] Habit tracked: 'youtube' at hour 20 (count: 1)
+2026-04-20 20:02:10,262 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 20:02:57,865 [INFO] Initialising Jarvis...
+2026-04-20 20:02:58,294 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 20:02:58,294 [INFO] Speech recogniser ready.
+2026-04-20 20:02:58,294 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 20:02:58,361 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 20:02:58,361 [INFO] Loaded 20 messages from memory.
+2026-04-20 20:02:58,361 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 20:02:58,374 [INFO] ====== WebDriver manager ======
+2026-04-20 20:02:58,829 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 20:02:58,906 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 20:02:58,940 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 20:03:00,847 [INFO] Browser controller ready.
+2026-04-20 20:03:00,847 [INFO] Jarvis fully initialised.
+2026-04-20 20:03:16,008 [INFO] Wake word check: 'jarvis'
+2026-04-20 20:03:24,020 [INFO] Heard: 'play goat'
+2026-04-20 20:03:24,037 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 20:03:29,940 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 20:03:37,006 [INFO] YouTube keep-alive thread started.
+2026-04-20 20:03:37,007 [INFO] Playing YouTube: 'Diljit Dosanjh - G.O.A.T. (Official Music Video)'
+2026-04-20 20:04:27,270 [INFO] Heard: 'Jarvis stop the video'
+2026-04-20 20:04:27,290 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 20:04:46,758 [INFO] Heard: 'play obsessed'
+2026-04-20 20:04:46,767 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 20:04:53,498 [INFO] YouTube keep-alive thread started.
+2026-04-20 20:04:53,500 [INFO] Playing YouTube: 'Obsessed - Riar Saab, @AbhijaySharma | Official Music Video'
+2026-04-20 20:05:13,388 [INFO] Heard: 'pause this video Jarvis'
+2026-04-20 20:05:18,676 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 20:05:41,305 [INFO] Heard: 'Mera bhaiya Kuchh ekadam quick easy chahie to 4 GB dusra'
+2026-04-20 20:05:45,967 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:56:16,894 [INFO] Initialising Jarvis...
+2026-04-20 23:56:17,383 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-20 23:56:17,383 [INFO] Speech recogniser ready.
+2026-04-20 23:56:17,383 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-20 23:56:17,454 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-20 23:56:17,454 [INFO] Loaded 20 messages from memory.
+2026-04-20 23:56:17,454 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-20 23:56:17,467 [INFO] ====== WebDriver manager ======
+2026-04-20 23:56:17,950 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 23:56:18,033 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-20 23:56:18,064 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-20 23:56:20,001 [INFO] Browser controller ready.
+2026-04-20 23:56:20,002 [INFO] Jarvis fully initialised.
+2026-04-20 23:56:35,527 [INFO] Wake word check: 'jarvis'
+2026-04-20 23:56:43,736 [INFO] Heard: 'do you know Kanika'
+2026-04-20 23:56:48,694 [INFO] Falling back to Wikipedia for 'do you know Kanika'.
+2026-04-20 23:56:49,398 [INFO] Wikipedia returned 3 results for 'do you know Kanika'.
+2026-04-20 23:56:52,866 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:57:22,830 [INFO] Heard: 'no I am referring to my girlfriend Kanika'
+2026-04-20 23:57:25,309 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:57:51,436 [INFO] Heard: 'so her birthday is going to be in 3 next 3 minutes so it is on 21st of April would you do something'
+2026-04-20 23:57:55,740 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:58:52,326 [INFO] Heard: 'play a birthday song on YouTube'
+2026-04-20 23:58:52,332 [INFO] Habit tracked: 'youtube' at hour 23 (count: 1)
+2026-04-20 23:58:52,405 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 23:58:58,287 [INFO] YouTube keep-alive thread stopped.
+2026-04-20 23:59:04,230 [INFO] YouTube keep-alive thread started.
+2026-04-20 23:59:04,231 [INFO] Playing YouTube: 'Happy Birthday song'
+2026-04-21 00:00:25,191 [INFO] Auto-resumed paused video.
+2026-04-21 00:00:31,630 [INFO] Wake word check: 'jarvis'
+2026-04-21 00:00:46,607 [INFO] Heard: 'Kanika is saying thank you'
+2026-04-21 00:00:49,308 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 00:01:17,518 [INFO] Heard: 'yes Jarvis that's wonderful'
+2026-04-21 00:01:17,522 [INFO] Good response saved. Total saved: 5
+2026-04-21 00:01:48,634 [INFO] Heard: 'jarvis go'
+2026-04-21 00:01:51,976 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 00:02:07,537 [INFO] Heard: 'go and'
+2026-04-21 00:02:09,793 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 00:02:29,034 [INFO] Heard: 'go and'
+2026-04-21 00:02:30,991 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 00:02:57,921 [INFO] Heard: 'sleep Jarvis sleep'
+2026-04-21 11:36:36,210 [INFO] Initialising Jarvis...
+2026-04-21 11:36:36,602 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-21 11:36:36,602 [INFO] Speech recogniser ready.
+2026-04-21 11:36:36,602 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-21 11:36:36,672 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-21 11:36:36,672 [INFO] Loaded 20 messages from memory.
+2026-04-21 11:36:36,672 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-21 11:36:36,685 [INFO] ====== WebDriver manager ======
+2026-04-21 11:36:37,033 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-21 11:36:37,121 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-21 11:36:37,165 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-21 11:36:37,270 [INFO] WebDriver version 147.0.7727.57 selected
+2026-04-21 11:36:37,273 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.57/mac-arm64/chromedriver-mac-arm64.zip
+2026-04-21 11:36:37,273 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.57/mac-arm64/chromedriver-mac-arm64.zip
+2026-04-21 11:36:37,330 [INFO] Driver downloading response is 200
+2026-04-21 11:36:37,668 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-21 11:36:37,819 [INFO] Driver has been saved in cache [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.57]
+2026-04-21 11:36:39,636 [INFO] Browser controller ready.
+2026-04-21 11:36:39,637 [INFO] Jarvis fully initialised.
+2026-04-21 11:36:54,185 [INFO] Wake word check: 'jarvis'
+2026-04-21 11:37:01,861 [INFO] Heard: 'how are you feeling today'
+2026-04-21 11:37:08,227 [INFO] Falling back to Wikipedia for 'how are you feeling today'.
+2026-04-21 11:37:09,111 [INFO] Wikipedia returned 3 results for 'how are you feeling today'.
+2026-04-21 11:37:12,596 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:37:35,892 [INFO] Heard: 'Jarvis'
+2026-04-21 11:37:37,277 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:37:51,123 [INFO] Heard: 'play obsessed'
+2026-04-21 11:37:51,168 [INFO] YouTube keep-alive thread stopped.
+2026-04-21 11:37:56,730 [INFO] YouTube keep-alive thread stopped.
+2026-04-21 11:38:03,048 [INFO] YouTube keep-alive thread started.
+2026-04-21 11:38:03,048 [INFO] Playing YouTube: 'Mariah Carey - Obsessed (Lyrics)'
+2026-04-21 11:39:00,521 [INFO] Wake word check: 'jarvis'
+2026-04-21 11:39:09,839 [INFO] Heard: 'play'
+2026-04-21 11:39:12,504 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:39:23,888 [INFO] Auto-resumed paused video.
+2026-04-21 11:39:33,980 [INFO] Auto-resumed paused video.
+2026-04-21 11:39:35,211 [INFO] Heard: 'play goat'
+2026-04-21 11:39:35,216 [INFO] YouTube keep-alive thread stopped.
+2026-04-21 11:39:41,609 [INFO] YouTube keep-alive thread started.
+2026-04-21 11:39:41,609 [INFO] Playing YouTube: 'Diljit Dosanjh - G.O.A.T. (Official Music Video)'
+2026-04-21 11:40:04,438 [INFO] Heard: 'Jarvis pause the video'
+2026-04-21 11:40:04,456 [INFO] YouTube keep-alive thread stopped.
+2026-04-21 11:40:19,629 [INFO] Heard: 'open Gmail'
+2026-04-21 11:40:19,632 [INFO] YouTube keep-alive thread stopped.
+2026-04-21 11:40:33,442 [INFO] Heard: 'Gmail search kar'
+2026-04-21 11:40:35,490 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:40:57,463 [INFO] Heard: 'Jarvis could you call somebody'
+2026-04-21 11:40:59,309 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:41:25,859 [INFO] Heard: 'dial a number'
+2026-04-21 11:41:28,615 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:41:43,440 [INFO] Heard: 'dial 93112 347'
+2026-04-21 11:41:45,286 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:42:04,433 [INFO] Heard: 'no that's a different number'
+2026-04-21 11:42:07,302 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:42:25,015 [INFO] Heard: '931123 4789'
+2026-04-21 11:42:26,349 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:42:57,655 [INFO] Heard: 'Jarvis'
+2026-04-21 11:42:59,321 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:43:12,699 [INFO] Heard: 'Chalo Hindi mein baat'
+2026-04-21 11:43:16,421 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:43:37,515 [INFO] Heard: 'WhatsApp ko message aaya'
+2026-04-21 11:43:40,181 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 11:43:58,065 [INFO] Heard: 'go sleep now'
+2026-04-24 09:15:02,794 [INFO] Initialising Jarvis...
+2026-04-24 09:15:03,454 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-24 09:15:03,455 [INFO] Speech recogniser ready.
+2026-04-24 09:15:03,455 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-24 09:15:09,801 [INFO] Voice identifier ready.
+2026-04-24 09:15:09,802 [INFO] No voiceprint found — will enroll on first run.
+2026-04-24 09:15:09,875 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-24 09:15:09,876 [INFO] Loaded 20 messages from memory.
+2026-04-24 09:15:09,876 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-24 09:15:09,892 [INFO] ====== WebDriver manager ======
+2026-04-24 09:15:16,970 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:15:17,086 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:15:17,143 [INFO] There is no [mac64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-04-24 09:15:17,155 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:15:17,375 [INFO] WebDriver version 147.0.7727.117 selected
+2026-04-24 09:15:17,378 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-04-24 09:15:17,378 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-04-24 09:15:17,540 [INFO] Driver downloading response is 200
+2026-04-24 09:15:18,085 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:15:18,269 [INFO] Driver has been saved in cache [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117]
+2026-04-24 09:15:20,352 [INFO] Browser controller ready.
+2026-04-24 09:15:20,353 [INFO] Jarvis fully initialised.
+2026-04-24 09:15:20,353 [ERROR] Fatal error: 'Jarvis' object has no attribute '_setup_keyboard_stop'
+2026-04-24 09:15:20,353 [INFO] Shutting down Jarvis...
+2026-04-24 09:15:20,378 [INFO] YouTube keep-alive thread stopped.
+2026-04-24 09:15:20,512 [INFO] Jarvis shut down cleanly.
+2026-04-24 09:15:37,965 [INFO] Initialising Jarvis...
+2026-04-24 09:15:38,349 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-24 09:15:38,349 [INFO] Speech recogniser ready.
+2026-04-24 09:15:38,349 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-24 09:15:39,528 [INFO] Voice identifier ready.
+2026-04-24 09:15:39,528 [INFO] No voiceprint found — will enroll on first run.
+2026-04-24 09:15:39,594 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-24 09:15:39,595 [INFO] Loaded 20 messages from memory.
+2026-04-24 09:15:39,595 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-24 09:15:39,602 [INFO] ====== WebDriver manager ======
+2026-04-24 09:15:39,914 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:15:39,976 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:15:40,033 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-24 09:15:41,788 [INFO] Browser controller ready.
+2026-04-24 09:15:41,789 [INFO] Jarvis fully initialised.
+2026-04-24 09:15:41,789 [ERROR] Fatal error: 'Jarvis' object has no attribute '_setup_keyboard_stop'
+2026-04-24 09:15:41,789 [INFO] Shutting down Jarvis...
+2026-04-24 09:15:41,794 [INFO] YouTube keep-alive thread stopped.
+2026-04-24 09:15:41,931 [INFO] Jarvis shut down cleanly.
+2026-04-24 09:25:27,354 [INFO] Initialising Jarvis...
+2026-04-24 09:25:27,938 [INFO] Voice engine ready. ElevenLabs: False
+2026-04-24 09:25:27,938 [INFO] Speech recogniser ready.
+2026-04-24 09:25:27,938 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-04-24 09:25:29,200 [INFO] Voice identifier ready.
+2026-04-24 09:25:29,200 [INFO] No voiceprint found — will enroll on first run.
+2026-04-24 09:25:29,274 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-04-24 09:25:29,274 [INFO] Loaded 20 messages from memory.
+2026-04-24 09:25:29,274 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-04-24 09:25:29,283 [INFO] ====== WebDriver manager ======
+2026-04-24 09:25:29,913 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:25:29,976 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-24 09:25:30,029 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-04-24 09:25:31,927 [INFO] Browser controller ready.
+2026-04-24 09:25:31,927 [INFO] Jarvis fully initialised.
+2026-04-24 09:26:19,779 [INFO] Voiceprint enrolled and saved.
+2026-04-24 09:26:35,368 [INFO] Wake word check: 'jarvis'
+2026-04-24 09:26:35,426 [INFO] Voice similarity score: 0.72
+2026-04-24 09:26:35,426 [WARNING] Voice unclear — low confidence match.
+2026-04-24 09:26:54,888 [INFO] Heard: 'how are you doing jar'
+2026-04-24 09:26:54,949 [INFO] Voice similarity score: 0.68
+2026-04-24 09:26:57,189 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 09:27:23,562 [INFO] Heard: 'shaadi Ho Gai Jyada'
+2026-04-24 09:27:23,619 [INFO] Voice similarity score: 0.52
+2026-04-24 09:27:36,038 [INFO] Heard: 'Jarvis'
+2026-04-24 09:27:36,085 [INFO] Voice similarity score: 0.57
+2026-04-24 09:27:37,285 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 09:27:52,132 [INFO] Heard: 'shaadi ho gai'
+2026-04-24 09:27:52,179 [INFO] Voice similarity score: 0.54
+2026-04-24 09:28:06,186 [INFO] Heard: 'tum meri voice ko recognise nahin kar raha to mere se command Nahin Lega'
+2026-04-24 09:28:06,255 [INFO] Voice similarity score: 0.70
+2026-04-24 09:28:09,441 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 09:28:39,161 [INFO] Heard: 'uske liye koi solution'
+2026-04-24 09:28:39,206 [INFO] Voice similarity score: 0.48
+2026-04-24 09:28:52,930 [INFO] Heard: 'Jarvis could you register few voices'
+2026-04-24 09:28:53,025 [INFO] Voice similarity score: 0.66
+2026-04-24 09:28:55,620 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 09:29:47,729 [INFO] Heard: 'go to sleep Jarvis'
+2026-04-24 09:29:47,787 [INFO] Voice similarity score: 0.71
+2026-05-04 09:26:04,019 [INFO] Initialising Jarvis...
+2026-05-04 09:26:04,502 [INFO] Voice engine ready. ElevenLabs: False
+2026-05-04 09:26:04,502 [INFO] Speech recogniser ready.
+2026-05-04 09:26:04,502 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-05-04 09:26:06,091 [INFO] Voice identifier ready.
+2026-05-04 09:26:06,092 [INFO] Voiceprint loaded from file.
+2026-05-04 09:26:06,166 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-05-04 09:26:06,166 [INFO] Loaded 20 messages from memory.
+2026-05-04 09:26:06,166 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-05-04 09:26:06,176 [INFO] ====== WebDriver manager ======
+2026-05-04 09:26:13,051 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 09:26:13,138 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 09:26:13,199 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 09:26:13,384 [INFO] WebDriver version 147.0.7727.117 selected
+2026-05-04 09:26:13,387 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-04 09:26:13,387 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-04 09:26:13,527 [INFO] Driver downloading response is 200
+2026-05-04 09:26:14,053 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 09:26:14,227 [INFO] Driver has been saved in cache [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117]
+2026-05-04 09:26:16,330 [INFO] Browser controller ready.
+2026-05-04 09:26:16,333 [INFO] Jarvis fully initialised.
+2026-05-04 09:26:34,997 [INFO] Wake word check: 'jarvis'
+2026-05-04 09:26:36,651 [INFO] Voice similarity score: 0.65
+2026-05-04 09:26:36,651 [WARNING] Voice unclear — low confidence match.
+2026-05-04 09:26:55,394 [INFO] Heard: 'how are you doing jar'
+2026-05-04 09:26:55,443 [INFO] Voice similarity score: 0.62
+2026-05-04 09:26:57,836 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:27:21,365 [INFO] Heard: 'Youtube open karna'
+2026-05-04 09:27:21,431 [INFO] Voice similarity score: 0.60
+2026-05-04 09:27:21,433 [INFO] Habit tracked: 'youtube' at hour 9 (count: 1)
+2026-05-04 09:27:22,881 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:27:38,078 [INFO] Heard: 'brouser open karna'
+2026-05-04 09:27:38,170 [INFO] Voice similarity score: 0.68
+2026-05-04 09:27:39,615 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:28:03,780 [INFO] Heard: 'Jazz'
+2026-05-04 09:28:03,943 [INFO] Voice similarity score: 0.63
+2026-05-04 09:28:06,651 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:28:30,505 [INFO] Heard: 'now play'
+2026-05-04 09:28:30,580 [INFO] Voice similarity score: 0.60
+2026-05-04 09:28:32,251 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:28:53,545 [INFO] Heard: 'new Jarvis that was not helpful'
+2026-05-04 09:28:53,551 [INFO] Good response saved. Total saved: 6
+2026-05-04 09:29:09,219 [INFO] Heard: 'open YouTube'
+2026-05-04 09:29:09,324 [INFO] Voice similarity score: 0.59
+2026-05-04 09:29:09,326 [INFO] Habit tracked: 'youtube' at hour 9 (count: 2)
+2026-05-04 09:29:09,326 [INFO] YouTube keep-alive thread stopped.
+2026-05-04 09:29:21,876 [INFO] Heard: 'play goat'
+2026-05-04 09:29:21,927 [INFO] Voice similarity score: 0.45
+2026-05-04 09:29:35,126 [INFO] Heard: 'play go'
+2026-05-04 09:29:35,201 [INFO] Voice similarity score: 0.52
+2026-05-04 09:29:50,973 [INFO] Heard: 'Jarvis that was me actually'
+2026-05-04 09:29:51,045 [INFO] Voice similarity score: 0.59
+2026-05-04 09:29:53,368 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:30:15,766 [INFO] Heard: 'could you please play goat on YouTube'
+2026-05-04 09:30:15,870 [INFO] Voice similarity score: 0.64
+2026-05-04 09:30:15,871 [INFO] Habit tracked: 'youtube' at hour 9 (count: 3)
+2026-05-04 09:30:17,636 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:30:34,441 [INFO] Heard: 'Google show me Diljit do'
+2026-05-04 09:30:34,509 [INFO] Voice similarity score: 0.62
+2026-05-04 09:30:35,843 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:30:54,283 [INFO] Heard: 'just play go to YouTube'
+2026-05-04 09:30:54,360 [INFO] Voice similarity score: 0.66
+2026-05-04 09:30:54,363 [INFO] Habit tracked: 'youtube' at hour 9 (count: 4)
+2026-05-04 09:30:55,890 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 09:31:11,067 [INFO] Heard: 'open YouTube again'
+2026-05-04 09:31:11,145 [INFO] Voice similarity score: 0.60
+2026-05-04 09:31:11,147 [INFO] Habit tracked: 'youtube' at hour 9 (count: 5)
+2026-05-04 09:31:11,147 [INFO] YouTube keep-alive thread stopped.
+2026-05-04 09:31:28,390 [INFO] Heard: 'play go'
+2026-05-04 09:31:28,451 [INFO] Voice similarity score: 0.62
+2026-05-04 09:31:28,458 [INFO] YouTube keep-alive thread stopped.
+2026-05-04 09:31:33,179 [INFO] YouTube keep-alive thread stopped.
+2026-05-04 09:31:39,874 [INFO] YouTube keep-alive thread started.
+2026-05-04 09:31:39,875 [INFO] Playing YouTube: 'BLACKPINK - ‘GO’ M/V'
+2026-05-04 09:31:39,896 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-05-04 09:31:39,963 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2026-05-04 09:31:41,101 [INFO] Volume restored.
+2026-05-04 09:31:48,254 [INFO] Volume ducked to 20%.
+2026-05-04 09:31:49,451 [INFO] Volume restored.
+2026-05-04 09:32:39,813 [INFO] Volume restored.
+2026-05-04 09:33:10,958 [INFO] Auto-resumed paused video.
+2026-05-04 09:33:21,068 [INFO] Auto-resumed paused video.
+2026-05-04 09:33:22,940 [INFO] Wake word check: 'kuchh nahin'
+2026-05-04 09:33:46,783 [INFO] Wake word check: 'jarvis'
+2026-05-04 09:33:46,878 [INFO] Voice similarity score: 0.55
+2026-05-04 09:33:46,882 [INFO] Volume ducked to 15%.
+2026-05-04 09:33:51,365 [INFO] Auto-resumed paused video.
+2026-05-04 09:33:58,615 [INFO] Volume restored.
+2026-05-04 09:34:10,194 [INFO] Wake word check: 'jarvis'
+2026-05-04 09:34:10,238 [INFO] Voice similarity score: 0.53
+2026-05-04 09:34:10,251 [INFO] Volume ducked to 15%.
+2026-05-04 09:34:11,516 [INFO] Auto-resumed paused video.
+2026-05-04 12:52:39,966 [WARNING] Could not read /var/folders/tx/mrftnp1s5tq9v43s6pwy7nkw0000gn/T/tmpxqst7x6h.json: Expecting value: line 1 column 1 (char 0)
+2026-05-04 12:52:39,969 [INFO] Memory loaded: 0 msgs, 0 facts, 16 habits, 6 good responses.
+2026-05-04 12:53:39,007 [WARNING] Could not read /var/folders/tx/mrftnp1s5tq9v43s6pwy7nkw0000gn/T/tmprqpggmha.json: Expecting value: line 1 column 1 (char 0)
+2026-05-04 12:53:39,012 [INFO] Memory loaded: 0 msgs, 0 facts, 16 habits, 6 good responses.
+2026-05-04 13:11:12,767 [INFO] Tool clear_memory → Memory cleared, sir.
+2026-05-04 13:11:12,771 [INFO] Tool browser_play → Playing lofi on youtube.com.
+2026-05-04 13:11:12,771 [ERROR] Tool browser_control error: 'Stub' object has no attribute 'skip_forward'
+2026-05-04 13:12:14,829 [INFO] Tool clear_memory → Memory cleared, sir.
+2026-05-04 13:12:14,834 [INFO] Tool browser_play → Playing lofi on youtube.com.
+2026-05-04 13:12:14,834 [INFO] Tool browser_control → Paused.
+2026-05-04 13:12:14,834 [INFO] Tool browser_control → Scrolled down.
+2026-05-04 13:12:14,834 [INFO] Tool browser_control → Going back.
+2026-05-04 13:12:14,834 [INFO] Tool web_search → results for ipl
+2026-05-04 13:12:14,834 [INFO] Tool browser_control → Unknown browser action: somemoonshot
+2026-05-04 13:12:14,835 [WARNING] Could not read /var/folders/tx/mrftnp1s5tq9v43s6pwy7nkw0000gn/T/tmpilgi_dhc.json: Expecting value: line 1 column 1 (char 0)
+2026-05-04 13:12:14,836 [INFO] Memory loaded: 0 msgs, 0 facts, 16 habits, 6 good responses.
+2026-05-04 13:12:14,869 [INFO] Tool get_time → It's 01:12 PM, sir.
+2026-05-04 13:12:14,870 [INFO] Tool get_time → It's 01:12 PM, sir.
+2026-05-04 13:12:14,870 [INFO] Tool get_time → It's 01:12 PM, sir.
+2026-05-04 13:12:14,870 [INFO] Tool get_time → It's 01:12 PM, sir.
+2026-05-04 13:12:14,870 [INFO] Tool get_time → It's 01:12 PM, sir.
+2026-05-04 13:12:14,870 [INFO] Tool get_time → It's 01:12 PM, sir.
+2026-05-04 13:12:14,870 [WARNING] Tool-use hop cap (5) reached.
+2026-05-04 22:06:25,017 [INFO] Initialising Jarvis...
+2026-05-04 22:06:25,567 [INFO] Voice engine ready. ElevenLabs: False
+2026-05-04 22:06:25,567 [INFO] Speech recogniser ready.
+2026-05-04 22:06:25,567 [INFO] Wake word active. Say 'Jarvis' to activate.
+2026-05-04 22:06:26,930 [INFO] Voice identifier ready.
+2026-05-04 22:06:26,930 [INFO] Voiceprint loaded from file.
+2026-05-04 22:06:26,931 [INFO] Memory loaded: 20 msgs, 0 facts, 16 habits, 6 good responses.
+2026-05-04 22:06:26,931 [INFO] Web brain ready. Using Google News RSS + Wikipedia + Google Search.
+2026-05-04 22:06:26,942 [INFO] ====== WebDriver manager ======
+2026-05-04 22:06:33,768 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 22:06:33,875 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 22:06:33,930 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-04 22:06:35,677 [INFO] Browser controller ready.
+2026-05-04 22:06:35,766 [INFO] AI brain ready. Model: claude-sonnet-4-6
+2026-05-04 22:06:35,766 [INFO] Jarvis fully initialised.
+2026-05-04 23:11:45,098 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:11:46,652 [INFO] Voice similarity score: 0.59
+2026-05-04 23:11:46,655 [WARNING] Voice unclear — low confidence match.
+2026-05-04 23:11:53,714 [INFO] Heard: 'how are you doing'
+2026-05-04 23:11:53,817 [INFO] Voice similarity score: 0.60
+2026-05-04 23:11:56,210 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 23:12:20,456 [INFO] Heard: 'open YouTube'
+2026-05-04 23:12:20,508 [INFO] Voice similarity score: 0.65
+2026-05-04 23:12:22,217 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 23:12:22,244 [WARNING] Selenium driver dead — re-initialising.
+2026-05-04 23:12:22,250 [INFO] ====== WebDriver manager ======
+2026-05-04 23:12:22,958 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 23:12:23,043 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 23:12:23,089 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-04 23:12:24,988 [INFO] Browser controller ready.
+2026-05-04 23:12:24,989 [INFO] YouTube keep-alive thread stopped.
+2026-05-04 23:12:29,154 [INFO] Tool browser_open → Opened youtube, sir.
+2026-05-04 23:12:30,656 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 23:12:43,024 [INFO] Heard: 'play goat'
+2026-05-04 23:12:43,134 [INFO] Voice similarity score: 0.57
+2026-05-04 23:12:45,329 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 23:12:45,355 [INFO] YouTube keep-alive thread stopped.
+2026-05-04 23:12:52,025 [INFO] YouTube keep-alive thread started.
+2026-05-04 23:12:52,025 [INFO] Playing YouTube: 'Diljit Dosanjh - G.O.A.T. (Official Music Video)'
+2026-05-04 23:12:52,025 [INFO] Tool browser_play → Playing 'Diljit Dosanjh - G.O.A.T. (Official Music Video)' on YouTube, sir.
+2026-05-04 23:12:53,757 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-04 23:14:15,190 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:14:15,297 [INFO] Voice similarity score: 0.48
+2026-05-04 23:14:15,305 [INFO] Volume ducked to 15%.
+2026-05-04 23:14:26,120 [INFO] Heard: 'Jarvis'
+2026-05-04 23:14:43,322 [INFO] Auto-resumed paused video.
+2026-05-04 23:15:51,140 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:15:51,249 [INFO] Voice similarity score: 0.57
+2026-05-04 23:15:59,549 [WARNING] Selenium driver dead — re-initialising.
+2026-05-04 23:15:59,721 [INFO] ====== WebDriver manager ======
+2026-05-04 23:16:00,617 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 23:16:00,675 [INFO] Get LATEST chromedriver version for google-chrome
+2026-05-04 23:16:00,724 [INFO] Driver [/Users/rishabhgupta/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-04 23:16:02,234 [INFO] Browser controller ready.
+2026-05-04 23:16:08,711 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:16:08,759 [INFO] Voice similarity score: 0.54
+2026-05-04 23:16:20,297 [INFO] Heard: 'it's me jealous I am RG'
+2026-05-04 23:16:46,380 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:16:46,427 [INFO] Voice similarity score: 0.51
+2026-05-04 23:16:57,892 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:16:57,928 [INFO] Voice similarity score: 0.53
+2026-05-04 23:17:12,759 [INFO] Heard: 'Jarvis'
+2026-05-04 23:17:40,331 [INFO] Wake word check: 'jarvis'
+2026-05-04 23:17:40,377 [INFO] Voice similarity score: 0.58

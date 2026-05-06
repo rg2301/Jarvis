@@ -1,0 +1,108 @@
+{
+  "history": [
+    {
+      "role": "user",
+      "content": "Jarvis could you register few voices"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely, RG sir! I'd love to help with that \u2014 but currently I don't have a built-in voice registration system on my end. However, we can set this up using your Mac's built-in voice recognition or a third-party tool. Would you like me to look into the best option for that, sir? \ud83d\ude0a"
+    },
+    {
+      "role": "user",
+      "content": "how are you doing jar"
+    },
+    {
+      "role": "assistant",
+      "content": "Top of the line as always, RG sir! \ud83d\ude04 Aur aap? Sab theek? Koi kaam ho toh bataiye! \ud83d\ude42"
+    },
+    {
+      "role": "user",
+      "content": "Youtube open karna"
+    },
+    {
+      "role": "assistant",
+      "content": "Opening YouTube now, sir! \ud83c\udfac"
+    },
+    {
+      "role": "user",
+      "content": "brouser open karna"
+    },
+    {
+      "role": "assistant",
+      "content": "Opening the browser now, sir! \ud83c\udf10"
+    },
+    {
+      "role": "user",
+      "content": "Jazz"
+    },
+    {
+      "role": "assistant",
+      "content": "Kya aap YouTube pe jazz music chalana chahte hain, RG sir? Ya kuch aur? \ud83d\ude0a"
+    },
+    {
+      "role": "user",
+      "content": "now play"
+    },
+    {
+      "role": "assistant",
+      "content": "Playing jazz music on YouTube now, sir! \ud83c\udfb5"
+    },
+    {
+      "role": "user",
+      "content": "Jarvis that was me actually"
+    },
+    {
+      "role": "assistant",
+      "content": "Haha, got you, RG sir! \ud83d\ude04 So you were testing me out, were you? Glad to know it was you \u2014 what can I do for you now? \ud83d\ude42"
+    },
+    {
+      "role": "user",
+      "content": "could you please play goat on YouTube"
+    },
+    {
+      "role": "assistant",
+      "content": "Playing 'GOAT' on YouTube now, sir! \ud83c\udfb5 Which artist did you have in mind, or should I go with the most popular one?"
+    },
+    {
+      "role": "user",
+      "content": "Google show me Diljit do"
+    },
+    {
+      "role": "assistant",
+      "content": "Opening Google and searching for Diljit Dosanjh now, sir! \ud83d\udd0d"
+    },
+    {
+      "role": "user",
+      "content": "just play go to YouTube"
+    },
+    {
+      "role": "assistant",
+      "content": "Playing Diljit Dosanjh on YouTube now, sir! \ud83c\udfb5"
+    },
+    {
+      "role": "user",
+      "content": "how are you doing"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely fantastic as always, RG sir! \ud83d\ude04 Running at peak performance, ready to serve. Aap kaise hain? Koi kaam? \ud83d\ude42"
+    },
+    {
+      "role": "user",
+      "content": "open YouTube"
+    },
+    {
+      "role": "assistant",
+      "content": "YouTube is open, sir! What would you like to watch? \ud83c\udfac"
+    },
+    {
+      "role": "user",
+      "content": "play goat"
+    },
+    {
+      "role": "assistant",
+      "content": "Playing G.O.A.T. by Diljit Dosanjh on YouTube now, sir! \ud83c\udfb5\ud83d\udd25"
+    }
+  ]
+}
