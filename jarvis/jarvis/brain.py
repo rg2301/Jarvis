@@ -11,6 +11,7 @@ except ImportError as e:
     raise SystemExit(f"[ERROR] Missing dependency: {e}. pip install -r requirements.txt")
 
 from .config import Config, SYSTEM_PROMPT, log
+from .events import bus
 from .memory import Memory
 from .tools import TOOLS, ToolExecutor
 
@@ -71,6 +72,7 @@ class AIBrain:
             {"role": "user", "content": user_input},
         ]
 
+        bus.emit("state", state="thinking")
         for hop in range(Config.MAX_TOOL_HOPS):
             try:
                 response = self.client.messages.create(

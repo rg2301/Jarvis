@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from .commands import CommandHandler
 from .config import Config, log
+from .events import bus
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -215,6 +216,92 @@ TOOLS: list[dict] = [
         "description": "Delete the saved voiceprint and re-record the owner's voice.",
         "input_schema": {"type": "object", "properties": {}},
     },
+    {
+        "name": "list_files",
+        "description": (
+            "List the contents of a directory under one of the allowed roots "
+            "(Documents, Downloads, Desktop). Pass `path` as a folder name "
+            "(e.g. 'Documents'), a relative path ('Documents/work'), or an "
+            "absolute path inside a root. Omit `path` to see the available roots."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string"},
+            },
+        },
+    },
+    {
+        "name": "search_files",
+        "description": (
+            "Find files whose name contains a substring. Searches recursively "
+            "under all allowed roots, or under `root` if given. Hidden files "
+            "are skipped."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string"},
+                "root":  {"type": "string"},
+            },
+            "required": ["query"],
+        },
+    },
+    {
+        "name": "search_content",
+        "description": (
+            "Search inside text files (markdown, code, csv, json, etc.) for "
+            "a substring. Returns the first matching line per file. "
+            "Use this for 'find files mentioning X' style requests."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string"},
+                "root":  {"type": "string"},
+            },
+            "required": ["query"],
+        },
+    },
+    {
+        "name": "read_file",
+        "description": (
+            "Read the text contents of a file under an allowed root. "
+            "Files larger than 200 KB are truncated."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string"},
+            },
+            "required": ["path"],
+        },
+    },
+    {
+        "name": "file_info",
+        "description": "Get size, type, and modification time for a file or folder.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string"},
+            },
+            "required": ["path"],
+        },
+    },
+    {
+        "name": "open_path",
+        "description": (
+            "Open a file or folder in the operating system's default app "
+            "(Finder/Explorer for folders, default editor/viewer for files)."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string"},
+            },
+            "required": ["path"],
+        },
+    },
 ]
 
 
@@ -225,13 +312,14 @@ TOOLS: list[dict] = [
 class ToolExecutor:
     """Executes a tool call and returns a string for the tool_result block."""
 
-    def __init__(self, voice, memory, web, browser, identifier, stop_event):
+    def __init__(self, voice, memory, web, browser, identifier, stop_event, fs=None):
         self.voice      = voice
         self.memory     = memory
         self.web        = web
         self.browser    = browser
         self.identifier = identifier
         self.stop_event = stop_event
+        self.fs         = fs
 
     # ── Public entry ────────────────────────────────────────────────────────
     def dispatch(self, name: str, args: dict) -> str:
@@ -239,12 +327,15 @@ class ToolExecutor:
         if not handler:
             log.warning(f"Unknown tool: {name}")
             return f"Unknown tool: {name}"
+        bus.emit("tool_call", name=name, args=args or {})
         try:
             result = handler(args or {})
             log.info(f"Tool {name} → {str(result)[:160]}")
+            bus.emit("tool_result", name=name, result=str(result)[:240])
             return result
         except Exception as e:
             log.error(f"Tool {name} error: {e}")
+            bus.emit("tool_result", name=name, result=f"ERROR: {e}")
             return f"Error executing {name}: {e}"
 
     def _handlers(self) -> dict:
@@ -266,7 +357,18 @@ class ToolExecutor:
             "web_search":       self._web_search,
             "save_fact":        self._save_fact,
             "voice_reenroll":   self._voice_reenroll,
+            "list_files":       lambda a: self._fs("list_dir",      a.get("path", "")),
+            "search_files":     lambda a: self._fs("search_files",  a["query"], a.get("root", "")),
+            "search_content":   lambda a: self._fs("search_content", a["query"], a.get("root", "")),
+            "read_file":        lambda a: self._fs("read_file",     a["path"]),
+            "file_info":        lambda a: self._fs("file_info",     a["path"]),
+            "open_path":        lambda a: self._fs("open_path",     a["path"]),
         }
+
+    def _fs(self, method: str, *args) -> str:
+        if self.fs is None:
+            return "Filesystem access is not configured."
+        return getattr(self.fs, method)(*args)
 
     # ── Handlers with non-trivial logic ─────────────────────────────────────
     def _set_timer(self, args: dict) -> str:

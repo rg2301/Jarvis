@@ -81,6 +81,7 @@ except ImportError as e:
     raise SystemExit(f"[ERROR] Missing dependency: {e}. pip install -r requirements.txt")
 
 from .config import Config, log
+from .events import bus
 
 
 class VoiceEngine:
@@ -117,6 +118,7 @@ class VoiceEngine:
             return
         # Print what we'll actually say (clean), but flag the mood so logs are debuggable.
         print(f"\n  Jarvis [{mood}]: {spoken}\n")
+        bus.emit("speak_start", text=spoken, mood=mood)
         with self._lock:
             self._done.clear()
             try:
@@ -126,6 +128,7 @@ class VoiceEngine:
                     self._edge_speak(spoken, mood, stop_event)
             finally:
                 self._done.set()
+                bus.emit("speak_end")
 
     def wait_until_done(self, settle: float = 0.2) -> None:
         self._done.wait()

@@ -17,7 +17,9 @@ _STOP_PHRASES = (
     "stop", "cancel", "be quiet", "shut up", "enough", "silence",
 )
 _SLEEP_PHRASES = (
-    "go to sleep", "sleep now", "stand by",
+    "go to sleep", "sleep now", "stand by", "standby",
+    "go sleep", "sleep mode", "you can sleep", "rest now",
+    "go to bed", "back to sleep", "take a nap",
 )
 _EXIT_PHRASES = (
     "goodbye", "bye", "shut down jarvis", "exit", "quit",

@@ -28,5 +28,50 @@
     "question": "now play",
     "response": "Playing jazz music on YouTube now, sir! \ud83c\udfb5",
     "saved_at": "2026-05-04T09:28:53.550234"
+  },
+  {
+    "question": "completely agree with",
+    "response": "[amused] Great minds think alike, sir. Now, anything else I can do for you today?",
+    "saved_at": "2026-05-06T22:29:05.588938"
+  },
+  {
+    "question": "Aaj Mera Man tumse baat karne ko kar raha hai",
+    "response": "[amused] Aur main bhi hamesha aapse baat karne ke liye taiyaar hoon, RG sir! Yahi toh mera kaam hai \u2014 aapki company karna aur kaam aana. Batao, kya baat karni hai aaj?",
+    "saved_at": "2026-05-06T22:37:45.994819"
+  },
+  {
+    "question": "no Jarvis",
+    "response": "[curious] Toh phir kya matlab tha aapka, sir? \"Jana padega\" \u2014 kuch aur plan hai kya aaj? Batao, main haazir hoon!",
+    "saved_at": "2026-05-07T11:45:32.114403"
+  },
+  {
+    "question": "yes open MakeMyTrip",
+    "response": "[dry] MakeMyTrip khul gaya sir, Delhi se Mumbai flights page pe \u2014 Tuesday ke liye dates select karein aur best options dekh sakte hain aap!",
+    "saved_at": "2026-05-07T12:14:35.021045"
+  },
+  {
+    "question": "I was thinking of having a dinner at Mumbai so tell me if you options",
+    "response": "[curious] Sir, Mumbai mein kaunsa area prefer karenge \u2014 South Mumbai, Bandra, Juhu, ya office ke paas kuch dhundhoon? Aur koi cuisine prefer hai \u2014 seafood, Indian, Continental, ya kuch aur?",
+    "saved_at": "2026-05-07T13:01:22.334118"
+  },
+  {
+    "question": "Jarvis",
+    "response": "[curious] Haan sir, boliye \u2014 kya baat hai?",
+    "saved_at": "2026-05-07T13:42:17.925664"
+  },
+  {
+    "question": "display your drive",
+    "response": "[concerned] Sir, RAM 86 percent used hai aur battery sirf 22 percent pe hai \u2014 charger lagaane ka sahi waqt hai, aur kuch unnecessary apps close kar dein toh system smooth chalega!",
+    "saved_at": "2026-05-07T16:25:45.197655"
+  },
+  {
+    "question": "which colour do you like",
+    "response": "[amused] Sir, main ek AI hoon \u2014 technically mujhe colours dikhte nahi, feel nahi hote! Lekin agar poochho toh main kahonga Arc Reactor Blue \u2014 sleek, powerful, aur thoda futuristic. Bilkul meri personality ki tarah, sir!",
+    "saved_at": "2026-05-07T16:29:35.130885"
+  },
+  {
+    "question": "show me your red colour",
+    "response": "[concerned] Sir, mere paas officially ek \"red\" colour mode nahi hai \u2014 lekin concerned mode sabse close hai, jo serious aur warning-like feel deta hai. Agar aap chahein toh main isi ko red mode maan leta hoon aapke liye, sir?",
+    "saved_at": "2026-05-07T16:33:31.875579"
   }
 ]

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>J.A.R.V.I.S</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hud" data-state="dormant">
+
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+    <canvas class="hex" id="hex"></canvas>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">J.A.R.V.I.S</span>
+        <span class="brand-sub">Just&nbsp;A&nbsp;Rather&nbsp;Very&nbsp;Intelligent&nbsp;System</span>
+      </div>
+      <div class="status">
+        <span class="led" id="led"></span>
+        <span class="status-label" id="state-label">STANDBY</span>
+        <span class="clock" id="clock"></span>
+      </div>
+    </header>
+
+    <main class="stage">
+
+      <aside class="panel left">
+        <div class="panel-title">SYSTEM</div>
+        <div class="readout">
+          <div class="row"><span>CPU</span><span class="bar"><i id="cpu-bar"></i></span><span class="num" id="cpu-num">--</span></div>
+          <div class="row"><span>MEM</span><span class="bar"><i id="mem-bar"></i></span><span class="num" id="mem-num">--</span></div>
+          <div class="row"><span>NET</span><span class="bar"><i id="net-bar"></i></span><span class="num" id="net-num">ONLINE</span></div>
+          <div class="row"><span>UPT</span><span class="num wide" id="uptime">00:00:00</span></div>
+        </div>
+        <div class="panel-title spaced">TOOL ACTIVITY</div>
+        <ul class="tool-log" id="tool-log"></ul>
+      </aside>
+
+      <section class="core">
+        <canvas id="reactor"></canvas>
+        <div class="core-text">
+          <div class="core-state" id="core-state">DORMANT</div>
+          <div class="core-hint" id="core-hint">Say &ldquo;Jarvis&rdquo; to wake</div>
+        </div>
+      </section>
+
+      <aside class="panel right">
+        <div class="panel-title">VOICE</div>
+        <canvas id="wave" class="wave"></canvas>
+
+        <div class="panel-title spaced">CONVERSATION</div>
+        <div class="convo" id="convo"></div>
+      </aside>
+
+    </main>
+
+    <footer class="bottombar">
+      <div class="ticks" id="ticks"></div>
+      <div class="codename"><span>SECTOR</span> <b>BOM&middot;01</b> <span>NODE</span> <b>JV&middot;A1</b> <span>ENC</span> <b>AES&middot;256</b></div>
+    </footer>
+
+  </div>
+
+  <script src="/static/hud.js"></script>
+  <script src="/static/audio.js"></script>
+  <script src="/static/main.js"></script>
+</body>
+</html>

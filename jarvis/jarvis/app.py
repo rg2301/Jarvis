@@ -13,6 +13,8 @@ from pathlib import Path
 from .browser import BrowserController
 from .config import Config, log
 from .brain import AIBrain
+from .events import bus
+from .filesystem import FilesystemBrain
 from .identifier import VoiceIdentifier
 from .memory import Memory
 from .router import EXIT, SLEEP, STOP, fast_route
@@ -36,6 +38,7 @@ class Jarvis:
         self.memory     = Memory()
         self.web        = WebBrain()
         self.browser    = BrowserController()
+        self.fs         = FilesystemBrain()
 
         self.executor   = ToolExecutor(
             voice=self.voice,
@@ -44,6 +47,7 @@ class Jarvis:
             browser=self.browser,
             identifier=self.identifier,
             stop_event=self._stop_event,
+            fs=self.fs,
         )
         # Inject the listener used for verbal confirmations inside tools.
         self.executor.listener = self.wake
@@ -229,6 +233,8 @@ class Jarvis:
 
             # ── Track habit (rough categorisation by keyword) ───────────────
             self._track_habit(user_input)
+
+            bus.emit("user_message", text=user_input)
 
             # ── Hand off to Claude tool-use brain ───────────────────────────
             response = self.brain.think(user_input, self.memory.get(), self.memory)
@@ -444,6 +450,16 @@ def main() -> None:
   ║     Just A Rather Very Intelligent System        ║
   ╚══════════════════════════════════════════════════╝
     """)
+
+    # Spin up the HUD web server first so the EventBus has a loop attached
+    # before any core module emits.
+    try:
+        from .server import start_in_background
+        start_in_background()
+        print("  HUD: open http://127.0.0.1:8765 in your browser.\n")
+    except Exception as e:
+        log.warning(f"HUD server failed to start: {e}")
+
     jarvis = None
     try:
         jarvis = Jarvis()

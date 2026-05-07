@@ -11,6 +11,7 @@ except ImportError as e:
     raise SystemExit(f"[ERROR] Missing dependency: {e}. pip install -r requirements.txt")
 
 from .config import Config, log
+from .events import bus
 
 
 class SpeechRecogniser:
@@ -65,6 +66,7 @@ class WakeWordDetector:
 
     def wait_for_wake_word(self) -> Optional[bytes]:
         print("\n  [Sleeping — say 'Jarvis' to wake me up...]")
+        bus.emit("state", state="dormant")
         while True:
             try:
                 with sr.Microphone() as source:
@@ -79,6 +81,7 @@ class WakeWordDetector:
                     log.info(f"Wake word check: '{text}'")
                     if "jarvis" in text:
                         print("  [Jarvis activated!]")
+                        bus.emit("wake")
                         return audio.get_wav_data()
                 except sr.UnknownValueError:
                     pass
@@ -96,6 +99,7 @@ class WakeWordDetector:
             with sr.Microphone() as source:
                 self.recogniser.adjust_for_ambient_noise(source, duration=0.2)
                 print("  [Listening...]")
+                bus.emit("state", state="listening")
                 try:
                     self.recogniser.listen(source, timeout=0.2, phrase_time_limit=0.2)
                 except Exception:
@@ -109,6 +113,7 @@ class WakeWordDetector:
             text = self.recogniser.recognize_google(audio, language="en-IN").strip()
             print(f"  You: {text}")
             log.info(f"Heard: '{text}'")
+            bus.emit("transcript", text=text)
             return text, raw_bytes
         except sr.WaitTimeoutError:
             return None, None

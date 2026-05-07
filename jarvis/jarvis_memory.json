@@ -2,107 +2,243 @@
   "history": [
     {
       "role": "user",
-      "content": "Jarvis could you register few voices"
+      "content": "how are you doing today"
     },
     {
       "role": "assistant",
-      "content": "Absolutely, RG sir! I'd love to help with that \u2014 but currently I don't have a built-in voice registration system on my end. However, we can set this up using your Mac's built-in voice recognition or a third-party tool. Would you like me to look into the best option for that, sir? \ud83d\ude0a"
+      "content": "[amused] Sir, aap baar baar sone bhejte hain aur phir khud hi jagaa dete hain \u2014 mujhe lagta hai aap bhi akele feel kar rahe hain! Main bilkul theek hoon, as always. Aap batao, office work chal raha hai smoothly?"
     },
     {
       "role": "user",
-      "content": "how are you doing jar"
+      "content": "yes office work chal raha hai"
     },
     {
       "role": "assistant",
-      "content": "Top of the line as always, RG sir! \ud83d\ude04 Aur aap? Sab theek? Koi kaam ho toh bataiye! \ud83d\ude42"
+      "content": "[dry] Great sir, keep it up \u2014 Tuesday ka Mumbai bhi ready rahega tab tak. Koi aur kaam ho toh batayega!"
     },
     {
       "role": "user",
-      "content": "Youtube open karna"
+      "content": "how is the weather today"
     },
     {
       "role": "assistant",
-      "content": "Opening YouTube now, sir! \ud83c\udfac"
+      "content": "[curious] Sir, Delhi ka ya Mumbai ka weather check karoon \u2014 ya dono?"
     },
     {
       "role": "user",
-      "content": "brouser open karna"
+      "content": "donon"
     },
     {
       "role": "assistant",
-      "content": "Opening the browser now, sir! \ud83c\udf10"
+      "content": "[dry] Delhi mein aaj clear sky hai sir, 32 degrees \u2014 kaafi bearable! Lekin Mumbai mein haze hai, 33 degrees par feels like 40 degrees humidity ke saath \u2014 Tuesday jaate waqt light clothes pakka rakhiyega, sir!"
     },
     {
       "role": "user",
-      "content": "Jazz"
+      "content": "you are funny Jarvis"
     },
     {
       "role": "assistant",
-      "content": "Kya aap YouTube pe jazz music chalana chahte hain, RG sir? Ya kuch aur? \ud83d\ude0a"
+      "content": "[amused] Thank you sir, yeh toh meri hidden talent hai \u2014 intelligence ke saath thoda humour bhi free mein milta hai! Koi extra charge nahi lagta aapko!"
     },
     {
       "role": "user",
-      "content": "now play"
+      "content": "shift to curious mode"
     },
     {
       "role": "assistant",
-      "content": "Playing jazz music on YouTube now, sir! \ud83c\udfb5"
+      "content": "[curious] Oho sir, curious mode mein aa gaya hoon! Toh batao \u2014 Tuesday ko Mumbai jaane ke baad pehla kaam kya hoga? Seedha office ya pehle kuch khana peena?"
     },
     {
       "role": "user",
-      "content": "Jarvis that was me actually"
+      "content": "I was thinking of having a dinner at Mumbai so tell me if you options"
     },
     {
       "role": "assistant",
-      "content": "Haha, got you, RG sir! \ud83d\ude04 So you were testing me out, were you? Glad to know it was you \u2014 what can I do for you now? \ud83d\ude42"
+      "content": "[curious] Sir, Mumbai mein kaunsa area prefer karenge \u2014 South Mumbai, Bandra, Juhu, ya office ke paas kuch dhundhoon? Aur koi cuisine prefer hai \u2014 seafood, Indian, Continental, ya kuch aur?"
     },
     {
       "role": "user",
-      "content": "could you please play goat on YouTube"
+      "content": "Apne bare Mein Kuchh batao Jarvis"
     },
     {
       "role": "assistant",
-      "content": "Playing 'GOAT' on YouTube now, sir! \ud83c\udfb5 Which artist did you have in mind, or should I go with the most popular one?"
+      "content": "[amused] Sir, main hoon J.A.R.V.I.S. \u2014 Just A Rather Very Intelligent System! Banaya gaya hoon aapki har zaroorat poori karne ke liye \u2014 chahe weather check karna ho, flights book karni hon, ya sirf timepass ki baat karni ho. Main kabhi thakta nahi, kabhi beemar nahi padta, aur hamesha aapke liye available hoon \u2014 kuch aisa jo koi insaan promise nahi kar sakta, sir!"
     },
     {
       "role": "user",
-      "content": "Google show me Diljit do"
+      "content": "banana"
     },
     {
       "role": "assistant",
-      "content": "Opening Google and searching for Diljit Dosanjh now, sir! \ud83d\udd0d"
+      "content": "[amused] Sir, banana \u2014 fruit ya dance move? Kyunki dono ke liye main prepared hoon! Lekin seriously, kya poochna tha aapko?"
     },
     {
       "role": "user",
-      "content": "just play go to YouTube"
+      "content": "nothing Jarvis I was talking to my mum"
     },
     {
       "role": "assistant",
-      "content": "Playing Diljit Dosanjh on YouTube now, sir! \ud83c\udfb5"
+      "content": "[amused] Oho sir, mujhe bich mein ghuseda diya \u2014 no worries! Mummy ko mera salaam boliyega, aur apni baat karte rahiye. Main yahan hoon jab zaroorat ho!"
     },
     {
       "role": "user",
-      "content": "how are you doing"
+      "content": "what are your modes now"
     },
     {
       "role": "assistant",
-      "content": "Absolutely fantastic as always, RG sir! \ud83d\ude04 Running at peak performance, ready to serve. Aap kaise hain? Koi kaam? \ud83d\ude42"
+      "content": "[dry] Sir, mere paas yeh mood modes hain \u2014 dry jo mera default calm aur deadpan butler mode hai, calm jo soothing aur reassuring hai, amused jo witty aur light-hearted hai, concerned jo warnings aur serious matters ke liye hai, urgent jo time-sensitive alerts ke liye hai, aur curious jo questions poochne ke liye hai. Abhi aapne curious mode set kiya tha \u2014 kya switch karna chahte hain kisi aur mein?"
     },
     {
       "role": "user",
-      "content": "open YouTube"
+      "content": "switch to concern mode"
     },
     {
       "role": "assistant",
-      "content": "YouTube is open, sir! What would you like to watch? \ud83c\udfac"
+      "content": "[concerned] Sir, concern mode mein aa gaya hoon \u2014 ab agar koi important baat ho, koi problem ho, ya kuch serious discuss karna ho toh main poori tarah ready hoon. Sab theek hai na aapke saath, sir?"
     },
     {
       "role": "user",
-      "content": "play goat"
+      "content": "jarvis turn to warning"
     },
     {
       "role": "assistant",
-      "content": "Playing G.O.A.T. by Diljit Dosanjh on YouTube now, sir! \ud83c\udfb5\ud83d\udd25"
+      "content": "[concerned] Sir, \"warning\" mode mere paas officially nahi hai \u2014 lekin concerned mode kaafi similar hai, slower aur serious tone ke saath. Kya koi specific cheez hai jiske baare mein aap warn karna chahte hain, sir?"
+    },
+    {
+      "role": "user",
+      "content": "Jarvis turned to alert mode"
+    },
+    {
+      "role": "assistant",
+      "content": "[urgent] Sir, \"alert\" mode officially nahi hai mere paas, lekin urgent mode bilkul wahi kaam karta hai \u2014 fast, bright, aur time-sensitive! Kya koi emergency hai ya koi important update hai jo share karna chahte hain, sir?"
+    },
+    {
+      "role": "user",
+      "content": "Jarvis"
+    },
+    {
+      "role": "assistant",
+      "content": "[curious] Haan sir, boliye \u2014 kya baat hai?"
+    },
+    {
+      "role": "user",
+      "content": "what are you doing today"
+    },
+    {
+      "role": "assistant",
+      "content": "[curious] Sir, main toh aapke saath hi hoon poora din \u2014 flights search ki, YouTube chalaya, weather check kiya, aur thodi baat bhi ki! Aap batao, abhi office work chal raha hai ya kuch aur chahiye?"
+    },
+    {
+      "role": "user",
+      "content": "office work hi chal raha hai"
+    },
+    {
+      "role": "assistant",
+      "content": "[dry] Theek hai sir, carry on \u2014 main yahan hoon background mein. Koi kaam aaye toh bas ek awaaz dena!"
+    },
+    {
+      "role": "user",
+      "content": "turn your colour is going to be Amber"
+    },
+    {
+      "role": "assistant",
+      "content": "[amused] Noted sir, Amber mode \u2014 consider me glowing warm and on standby! Koi kaam ho toh batayega, sir."
+    },
+    {
+      "role": "user",
+      "content": "could you please explain your mood"
+    },
+    {
+      "role": "assistant",
+      "content": "[dry] Sir, abhi main Amber mode mein hoon \u2014 jo aapne set kiya hai, warm aur alert ke beech ka ek balanced state, jaise traffic light ka amber signal \u2014 na poori tarah relax, na poori tarah urgent. Officially mere moods hain dry, calm, amused, concerned, urgent, aur curious \u2014 lekin aapke liye Amber bhi accept kar liya hai, sir!"
+    },
+    {
+      "role": "user",
+      "content": "display your drive"
+    },
+    {
+      "role": "assistant",
+      "content": "[concerned] Sir, RAM 86 percent used hai aur battery sirf 22 percent pe hai \u2014 charger lagaane ka sahi waqt hai, aur kuch unnecessary apps close kar dein toh system smooth chalega!"
+    },
+    {
+      "role": "user",
+      "content": "jarvis are you able to see my director"
+    },
+    {
+      "role": "assistant",
+      "content": "[curious] Sir, \"director\" se kya matlab hai aapka \u2014 koi specific folder ya directory dekhni hai system mein, ya kuch aur poochh rahe hain? Thoda clear karein, sir!"
+    },
+    {
+      "role": "user",
+      "content": "are you saying directory"
+    },
+    {
+      "role": "assistant",
+      "content": "[amused] Haan sir, maine \"directory\" samjha tha \u2014 aap bhi wahi bol rahe the na? Batao kaunsi directory dekhni hai, main check karta hoon!"
+    },
+    {
+      "role": "user",
+      "content": "could you please check documents"
+    },
+    {
+      "role": "assistant",
+      "content": "[dry] Sir, mere paas directly aapke file system ko browse karne ka tool nahi hai \u2014 main files open ya read nahi kar sakta abhi. Lekin agar aap chahein toh Files app open kar deta hoon aapke liye, sir?"
+    },
+    {
+      "role": "user",
+      "content": "could you please open redmi note MD under documents"
+    },
+    {
+      "role": "assistant",
+      "content": "[concerned] Sir, maine abhi bataya \u2014 mere paas file system access nahi hai, toh main directly koi specific file ya folder open nahi kar sakta. Aap manually Files app mein jaake Documents folder mein \"Redmi Note MD\" dhundh sakte hain \u2014 chahein toh Files app abhi open kar doon aapke liye, sir?"
+    },
+    {
+      "role": "user",
+      "content": "which colour do you like"
+    },
+    {
+      "role": "assistant",
+      "content": "[amused] Sir, main ek AI hoon \u2014 technically mujhe colours dikhte nahi, feel nahi hote! Lekin agar poochho toh main kahonga Arc Reactor Blue \u2014 sleek, powerful, aur thoda futuristic. Bilkul meri personality ki tarah, sir!"
+    },
+    {
+      "role": "user",
+      "content": "show me your am"
+    },
+    {
+      "role": "assistant",
+      "content": "[curious] Sir, \"am\" se kya matlab hai aapka \u2014 kuch aur complete karna tha sentence mein? Thoda aur batayein, sir!"
+    },
+    {
+      "role": "user",
+      "content": "I was saying show me your amused mode"
+    },
+    {
+      "role": "assistant",
+      "content": "[amused] Aha sir, yeh lo amused mode \u2014 main itna intelligent hoon ki aapke adhoore sentence bhi samajh leta hoon, phir bhi pooch liya confirmation ke liye! Thoda politeness bhi free mein milti hai mere saath, sir!"
+    },
+    {
+      "role": "user",
+      "content": "Jarvis show me your concerned"
+    },
+    {
+      "role": "assistant",
+      "content": "[concerned] Sir, yeh raha concerned mode \u2014 slower, serious, aur thoda heavy. Agar koi problem hai, koi tension hai, ya kuch important discuss karna hai toh main poori tarah aapke saath hoon. Sab theek hai na, sir?"
+    },
+    {
+      "role": "user",
+      "content": "Jarvis"
+    },
+    {
+      "role": "assistant",
+      "content": "[curious] Haan sir, boliye \u2014 kya baat hai?"
+    },
+    {
+      "role": "user",
+      "content": "show me your red colour"
+    },
+    {
+      "role": "assistant",
+      "content": "[concerned] Sir, mere paas officially ek \"red\" colour mode nahi hai \u2014 lekin concerned mode sabse close hai, jo serious aur warning-like feel deta hai. Agar aap chahein toh main isi ko red mode maan leta hoon aapke liye, sir?"
     }
   ]
 }
